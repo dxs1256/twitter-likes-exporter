@@ -1,43 +1,46 @@
-# Twitter Likes Exporter
+# Twitter 点赞导出器
 
-Automatically sync and export Twitter/X likes using GitHub Actions.
+通过 GitHub Actions 自动同步并导出 Twitter/X 点赞列表。
 
-## Setup
+## 配置步骤
 
-### 1. Get Your Twitter Cookies
+### 1. 获取 Twitter Cookie
 
-1. Open browser and log in to x.com
-2. Open DevTools (F12) → Application → Cookies → https://x.com
-3. Copy these values:
+1. 浏览器登录 x.com
+2. 按 F12 打开开发者工具 → Application → Cookies → https://x.com
+3. 复制以下值：
    - `auth_token`
    - `ct0`
-4. Get your User ID from: https://x.com/settings/your_account
+4. 获取用户 ID：访问 https://x.com/settings/your_account 或使用在线工具获取纯数字 ID
 
-### 2. Add GitHub Secrets
+### 2. 添加 GitHub Secrets
 
-Go to Settings → Secrets and variables → Actions → New repository secret:
+进入仓库 → Settings → Secrets and variables → Actions → New repository secret：
 
-| Secret Name | Value |
-|-------------|-------|
-| `X_AUTH_TOKEN` | Your auth_token from cookies |
-| `X_CT0` | Your ct0 from cookies |
-| `X_USER_ID` | Your Twitter user ID |
+| Secret 名称 | 值 |
+|-------------|-----|
+| `X_AUTH_TOKEN` | Cookie 中的 auth_token |
+| `X_CT0` | Cookie 中的 ct0 |
+| `X_USER_ID` | 你的 Twitter 用户 ID（纯数字） |
 
-### 3. Run
+### 3. 运行工作流
 
-The workflow runs automatically every 6 hours.
+- 进入 Actions → Sync Twitter Likes → Run workflow
+- 可选：选择 `full_sync: true` 进行全量同步（重置后获取全部历史点赞）
+- 默认模式：增量同步（从上次位置继续）
 
-Or trigger manually:
-- Go to Actions → Sync Twitter Likes → Run workflow
-- Optional: Select "Full sync" to reset and fetch all likes
+### 4. 导出结果
 
-### 4. Results
+运行完成后 `exports/` 目录会生成：
+- `likes.json` - 完整 JSON 数据（含原始 API 响应）
+- `likes_links.txt` - 纯文本推文链接列表（每行一个）
 
-Export files in `exports/` branch:
-- `likes.json` - Full JSON export
-- `likes_links.txt` - Plain text list of tweet URLs
+链接格式：`https://x.com/{用户名}/status/{推文ID}`
 
-## Notes
+## 注意事项
 
-- Twitter cookies expire periodically. Update secrets when sync fails.
-- Rate limits may apply. Large like counts take longer.
+- **Cookie 有效期**：通常 2-4 周过期，同步失败时需更新 Secrets
+- **速率限制**：点赞过多时单次运行耗时较长，请耐心等待
+- **账号风控**：频繁请求可能触发验证，需手动登录解除
+- **隐私安全**：公开仓库会暴露全部点赞内容，建议设为 Private
+- **仓库体积**：点赞过万后 JSON 较大，注意 GitHub 单文件 100MB 限制
