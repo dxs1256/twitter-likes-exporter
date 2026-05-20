@@ -51,7 +51,7 @@ jobs:
           fi
 
       - name: Export to JSON
-        run: tweetxvault export --collection likes --out exports/likes.json
+        run: tweetxvault export json --collection likes --out exports/likes.json
 
       - name: Extract links
         run: python scripts/extract_links.py exports/likes.json > exports/likes_links.txt
