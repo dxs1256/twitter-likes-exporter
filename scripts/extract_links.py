@@ -13,8 +13,9 @@ def extract_links(json_path: str) -> list[str]:
     
     links = []
     for tweet in data:
-        username = tweet.get("author_username")
         tweet_id = tweet.get("tweet_id")
+        author = tweet.get("author") or {}
+        username = author.get("username")
         if username and tweet_id:
             links.append(f"https://x.com/{username}/status/{tweet_id}")
     
