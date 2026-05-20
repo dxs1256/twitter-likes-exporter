@@ -40,14 +40,7 @@ jobs:
         run: pip install tweetxvault
 
       - name: Configure auth
-        run: |
-          mkdir -p ~/.config/tweetxvault
-          cat > ~/.config/tweetxvault/config.toml << 'EOF'
-          [auth]
-          auth_token = "'"${AUTH_TOKEN}"'"
-          ct0 = "'"${CT0}"'"
-          user_id = "'"${USER_ID}"'"
-          EOF
+        run: python scripts/configure_auth.py
 
       - name: Sync likes
         run: |
