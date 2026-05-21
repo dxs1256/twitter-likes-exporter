@@ -22,16 +22,20 @@ def extract_minimal(json_path: str) -> list[dict]:
     for tweet in data:
         author = tweet.get("author") or {}
         
+        tweet_id = tweet.get("tweet_id")
+        username = author.get("username")
+        url = f"https://x.com/{username}/status/{tweet_id}" if username and tweet_id else None
+        
         media_urls = []
         for m in tweet.get("media", []):
-            url = get_best_media_url(m)
-            if url:
-                media_urls.append(url)
+            m_url = get_best_media_url(m)
+            if m_url:
+                media_urls.append(m_url)
         
         entry = {
-            "tweet_id": tweet.get("tweet_id"),
+            "url": url,
             "text": tweet.get("text"),
-            "username": author.get("username"),
+            "username": username,
             "display_name": author.get("display_name"),
             "created_at": tweet.get("created_at"),
             "media_url": media_urls[0] if media_urls else None,
