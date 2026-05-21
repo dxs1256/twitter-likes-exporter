@@ -54,7 +54,7 @@ jobs:
           tweetxvault export json --collection likes --out /tmp/full_archive.json
           
           # 2. Generate minimal JSON and links list
-          python scripts/extract_minimal.py /tmp/full_archive.json exports/likes_minimal.json
+          python scripts/extract_minimal.py /tmp/full_archive.json exports/likes_mini.json
           python scripts/extract_links.py /tmp/full_archive.json > exports/likes_links.txt
           
           # 3. Clean up the large temporary file

@@ -32,7 +32,7 @@
 ### 4. 导出结果
 
 运行完成后 `exports/` 目录会生成：
-- `likes.json` - 完整 JSON 数据（含原始 API 响应）
+- `likes_mini.json` - 核心信息精简版 JSON
 - `likes_links.txt` - 纯文本推文链接列表（每行一个）
 
 链接格式：`https://x.com/{用户名}/status/{推文ID}`
