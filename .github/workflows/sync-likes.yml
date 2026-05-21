@@ -54,6 +54,9 @@ jobs:
       - name: Extract links
         run: python scripts/extract_links.py exports/likes.json > exports/likes_links.txt
 
+      - name: Extract minimal JSON
+        run: python scripts/extract_minimal.py exports/likes.json exports/likes_minimal.json
+
       - name: Commit and push
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
