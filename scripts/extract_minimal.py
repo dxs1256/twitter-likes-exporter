@@ -33,12 +33,12 @@ def extract_minimal(json_path: str) -> list[dict]:
                 media_urls.append(m_url)
         
         entry = {
-            "url": url,
-            "text": tweet.get("text"),
             "username": username,
             "display_name": author.get("display_name"),
             "created_at": tweet.get("created_at"),
+            "url": url,
             "media_url": media_urls[0] if media_urls else None,
+            "text": tweet.get("text"),
         }
         result.append(entry)
     
