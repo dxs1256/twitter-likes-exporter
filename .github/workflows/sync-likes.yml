@@ -48,14 +48,17 @@ jobs:
             tweetxvault sync likes --skip-enrich --skip-articles --skip-media --skip-unfurl --skip-threads
           fi
 
-      - name: Export to JSON
-        run: tweetxvault export json --collection likes --out exports/likes.json
-
-      - name: Generate Minimal Files & Cleanup
+      - name: Process and Export
         run: |
-          python scripts/extract_links.py exports/likes.json > exports/likes_links.txt
-          python scripts/extract_minimal.py exports/likes.json exports/likes_minimal.json
-          rm exports/likes.json
+          # 1. Export full archive to a temporary file
+          tweetxvault export json --collection likes --out /tmp/full_archive.json
+          
+          # 2. Generate minimal JSON and links list
+          python scripts/extract_minimal.py /tmp/full_archive.json exports/likes_minimal.json
+          python scripts/extract_links.py /tmp/full_archive.json > exports/likes_links.txt
+          
+          # 3. Clean up the large temporary file
+          rm -f /tmp/full_archive.json
 
       - name: Commit and push
         run: |
