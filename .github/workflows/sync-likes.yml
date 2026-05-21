@@ -51,11 +51,11 @@ jobs:
       - name: Export to JSON
         run: tweetxvault export json --collection likes --out exports/likes.json
 
-      - name: Extract links
-        run: python scripts/extract_links.py exports/likes.json > exports/likes_links.txt
-
-      - name: Extract minimal JSON
-        run: python scripts/extract_minimal.py exports/likes.json exports/likes_minimal.json
+      - name: Generate Minimal Files & Cleanup
+        run: |
+          python scripts/extract_links.py exports/likes.json > exports/likes_links.txt
+          python scripts/extract_minimal.py exports/likes.json exports/likes_minimal.json
+          rm exports/likes.json
 
       - name: Commit and push
         run: |
