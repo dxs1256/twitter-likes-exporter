@@ -1,6 +1,10 @@
 name: Sync Twitter Likes
 
 on:
+  schedule:
+    # 每天北京时间凌晨 02:00 运行 (对应 UTC 时间前一天 18:00)
+    # 如果您想使用其他时区，可以根据需要调整 cron 表达式
+    - cron: '0 18 * * *'
   workflow_dispatch:
     inputs:
       full_sync:
@@ -42,6 +46,7 @@ jobs:
 
       - name: Sync likes
         run: |
+          # 当通过 schedule 定时触发时，github.event.inputs.full_sync 会为空，此时会默认执行 else 分支（增量同步）
           if [ "${{ github.event.inputs.full_sync }}" = "true" ]; then
             tweetxvault sync likes --full --skip-enrich --skip-articles --skip-media --skip-unfurl --skip-threads
           else
