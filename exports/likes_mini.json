@@ -80,30 +80,6 @@
     "text": "wataa https://t.co/lg91n8Z8lP"
   },
   {
-    "username": "RocM301",
-    "display_name": "小鹏Digital",
-    "created_at": "Tue Jun 23 13:58:11 +0000 2026",
-    "url": "https://x.com/RocM301/status/2069419753018655192",
-    "media_url": "https://pbs.twimg.com/media/HLgOS76acAADkwF.jpg",
-    "text": "LePlayer作者由于工作没时间，开源了\n\n它是一款Apple TV 媒体播放器，把 IPTV 直播、云盘和 WebDAV/FTP 服务器汇聚到大屏上——配以丰富的 TMDB 元数据、AVPlayer/VLC 双引擎播放，追求速度与简洁。\n\n感兴趣的可以拿来折腾：\nhttps://t.co/5DE0VLuX7M https://t.co/DN2hBIPXjm"
-  },
-  {
-    "username": "direkturcrypto",
-    "display_name": "direktur.crypto",
-    "created_at": "Tue Jun 23 08:06:59 +0000 2026",
-    "url": "https://x.com/direkturcrypto/status/2069331369923338267",
-    "media_url": "https://video.twimg.com/amplify_video/2069330501400420352/vid/avc1/1920x1080/OAfym1ORWFf4AvcU.mp4?tag=28",
-    "text": "Saya bagi model GRATIS lewat https://t.co/nH03z0G6ov\n\nAnggep aja bagi-bagi token ya 🤣\n\nDaftar di https://t.co/nH03z0G6ov (cepet, tanpa verif email/kartu)\n\nLogin -> menu API Keys -> Create New Keys -> copy\nSetting di agent kamu:\n\nhost: https://t.co/CDYGbWa2Dz\nmodel: vikey/vclaw\napikey: dapetin ini di webnya vikey\n\nGratisnya khusus model vikey/vclaw & ini yg gw pake harian.\n\nCukup Lah"
-  },
-  {
-    "username": "Honcia13",
-    "display_name": "GOLD",
-    "created_at": "Mon Jun 22 14:34:00 +0000 2026",
-    "url": "https://x.com/Honcia13/status/2069066376841732161",
-    "media_url": "https://pbs.twimg.com/media/HLaxez0XgAEjUlN.jpg",
-    "text": "免费看全球电视直播，不用装一堆 App。\n\n发现一个持续维护的 IPTV 项目：\n\nCollect-IPTV。\n\n它会自动抓取、检测、更新全网可用的直播源，并生成标准 M3U / M3U8 播放列表。\n\n使用方法很简单：\n\n1️⃣ 复制项目里的 M3U 链接\n2️⃣ 导入 VLC、Kodi、IINA 等播放器\n3️⃣ 直接观看\n项目会自动检测源是否可用，\n失效链接自动剔除，\n\n延迟过高的也会被筛掉。\n\n不用自己到处找直播源。\n\n比较适合：\n\n• 电视盒子用户\n• 海外看中文频道\n• 不想安装复杂电视 App\n• 喜欢 VLC、Kodi 的用户\n\n项目长期维护，\n\n更新频率很高。\n地址：\nhttps://t.co/ojJ83RgJEu\n一个仓库，\n\n基本搞定大部分 IPTV 需求。"
-  },
-  {
     "username": "emma_morree",
     "display_name": "Emma 😈 Heaven 🍑",
     "created_at": "Mon Jun 22 10:33:32 +0000 2026",
@@ -310,14 +286,6 @@
     "url": "https://x.com/PopcornPlug_/status/2060265232354758953",
     "media_url": "https://pbs.twimg.com/media/HJeIRYJWwAEd1nF.jpg",
     "text": "This movie hit harder than watching POrn.. 🥵🍿 https://t.co/EjM6ZFZB45"
-  },
-  {
-    "username": "Shinning1010",
-    "display_name": "Shinning",
-    "created_at": "Thu May 28 14:11:08 +0000 2026",
-    "url": "https://x.com/Shinning1010/status/2060000925587214550",
-    "media_url": "https://pbs.twimg.com/media/HJZ13OHaQAA4nyG.jpg",
-    "text": "Blue-hour flash portrait, made to feel like a real nighttime snapshot\n\nCreated with GPT Image 2\nPrompt:\n\nUse my uploaded portrait only as the identity reference for facial features, face shape, hairstyle, hairline, skin tone, and real-person presence. Do not copy any identity from the reference image. Create a realistic outdoor night portrait inspired by the reference photo.\n\nThe person is standing in front of a dark blue evening sky, shot from the waist up with a close phone-camera perspective. They wear a fitted plain black short-sleeve T-shirt and a dark navy baseball cap pulled low, partially covering the eyes and upper face. Keep the uploaded person’s original hairstyle naturally visible under the cap, with long dark hair falling over one shoulder.\n\nThe person faces the camera directly with a calm, slightly confident expression. One arm is extended toward the lens, making a playful pointing gesture with the index finger close to the camera, creating natural foreground blur and slight wide-angle depth. The hand and arm must look anatomically realistic, with correct finger proportions and believable perspective.\n\nUse strong direct phone flash lighting, cool blue nighttime color grading, pale flash highlights on the skin, dark outdoor background silhouettes, shallow depth of field, candid snapshot realism, natural skin texture, real hair detail, and a slightly raw phone-photo look. The image should feel like a real casual flash photo, not a studio portrait.\n\nNo watermark, no logo, no readable text, no brand marks. Photorealistic, high-detail, natural body proportions, realistic fabric folds, 3:4 vertical composition.\n\nNegative Prompt:\n\nwatermark, logo, text, readable brand name, anime, cartoon, doll-like face, plastic skin, over-smoothed skin, fake face, heavy beauty filter, distorted hand, extra fingers, missing fingers, broken fingers, unnatural arm, bad anatomy, overexposed face, blurry face, low quality, AI artifacts, unrealistic lighting, pasted face, deformed body, exaggerated proportions."
   },
   {
     "username": "Shinning1010",
