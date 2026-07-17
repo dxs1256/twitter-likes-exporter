@@ -8,28 +8,12 @@
     "text": "一个 Rust 引擎 + Flutter 界面的多协议下载器，支持 HTTP/FTP、BT 磁力、eD2K 以及 HLS/DASH 流媒体，定位是免费开源的 IDM 替代品。\n\nhttps://t.co/ZzRm9lIVTM https://t.co/yNsXmzJCd1"
   },
   {
-    "username": "geekbb",
-    "display_name": "Geek",
-    "created_at": "Tue Jul 14 10:49:00 +0000 2026",
-    "url": "https://x.com/geekbb/status/2076982286629671002",
-    "media_url": "https://pbs.twimg.com/media/HNJ-BkHb0AAc1YB.jpg",
-    "text": "C-SSH 一个跨平台的原生 SSH 运维工具，基于 Rust + Tauri 2 构建。\n\n不只是一个 SSH 终端，通过在服务器上部署常驻 agent（单文件静态二进制），提供持久化 tmux 会话（断网、关机、换设备不丢）\n\n六大维度实时监控、图形化文件管理、内置 AI 助手（OpenAI 兼容 + Anthropic，五档权限控制）、端口映射、命令片段批量执行、应用中心（一键 Docker/Nginx/Redis 部署）和系统管理等功能。\n\nhttps://t.co/vyMuYWHq6E"
-  },
-  {
     "username": "Your_Ai_partner",
     "display_name": "helan lisa",
     "created_at": "Mon Jul 13 14:25:54 +0000 2026",
     "url": "https://x.com/Your_Ai_partner/status/2076674486326480939",
     "media_url": "https://video.twimg.com/amplify_video/2076673818865926144/vid/avc1/1080x1080/LCF9QBthi59AfLWS.mp4?tag=28",
     "text": "Chudai  🩶🩶 https://t.co/K5191JGMK0"
-  },
-  {
-    "username": "QT9277",
-    "display_name": "阿台BlueBird🕊️｜买美股上币安",
-    "created_at": "Sat Jul 11 12:19:22 +0000 2026",
-    "url": "https://x.com/QT9277/status/2075917864096415982",
-    "media_url": "https://pbs.twimg.com/media/HM8kSWIaUAAd_Sz.jpg",
-    "text": "自建 Linux VPS 的注意！你的服务器是否存在安全隐患，自己大概率不清楚。\n\n开源工具 vps-audit，单命令一键安全巡检\n✅扫描 SSH 配置漏洞，杜绝弱登录风险\n✅列出全部后台运行服务\n✅检测异常对外开放端口\n\n自动输出整改方案，隐患 + 修复建议一目了然\n\n不要裸奔部署服务器，抽空执行一次体检，规避入侵风险\n\n🔗 https://t.co/V1IB9QJimT"
   },
   {
     "username": "Celinemexx",
@@ -70,14 +54,6 @@
     "url": "https://x.com/Elizaxof/status/2074738138488959347",
     "media_url": "https://video.twimg.com/amplify_video/2074738025557286912/vid/avc1/576x1080/Y7pMo63TxOrxc8GK.mp4?tag=28",
     "text": "“ I just love to tease you all 😜 https://t.co/PNiyjWMnZq"
-  },
-  {
-    "username": "airazhu",
-    "display_name": "Airazhu",
-    "created_at": "Mon Jul 06 03:11:50 +0000 2026",
-    "url": "https://x.com/airazhu/status/2073968135645114634",
-    "media_url": "https://video.twimg.com/amplify_video/2073967794266476544/vid/avc1/2160x3840/8_B88nrVBkKmrigr.mp4?tag=28",
-    "text": "Which one is your favorite? https://t.co/eT7krU34ay"
   },
   {
     "username": "Callmemissparty",
@@ -150,14 +126,6 @@
     "url": "https://x.com/dallangls/status/2068769354012111175",
     "media_url": "https://video.twimg.com/amplify_video/2068769270927110144/vid/avc1/1080x1922/o-hPtuCjiHZAZtKd.mp4?tag=28",
     "text": "Wataa\nhttps://t.co/ktHWDpD5hY https://t.co/T2jcIHseeY"
-  },
-  {
-    "username": "cj3214567667",
-    "display_name": "白骏知识分享",
-    "created_at": "Sun Jun 21 13:48:55 +0000 2026",
-    "url": "https://x.com/cj3214567667/status/2068692644738499056",
-    "media_url": "https://pbs.twimg.com/media/HLV4xz5agAAComq.jpg",
-    "text": "随便打开一个视频播放器，加载这个播放清单，瞬间解锁上万个全球电视台！\n\nhttps://t.co/dP42aIF9pK https://t.co/4gcjA504k4"
   },
   {
     "username": "sonny_grandd",
