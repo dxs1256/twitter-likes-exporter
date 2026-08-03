@@ -1,1 +1,2 @@
-tweetxvault>=0.2.4
+tweetxvault>=0.2.5,<1
+lancedb==0.34.0
