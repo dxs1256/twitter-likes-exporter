@@ -39,7 +39,16 @@ jobs:
           cache: 'pip'
 
       - name: Install tweetxvault
-        run: pip install tweetxvault
+        run: pip install -r requirements.txt
+
+      - name: Cache tweetxvault archive
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.local/share/tweetxvault
+          key: tweetxvault-archive-${{ github.ref_name }}
+          restore-keys: |
+            tweetxvault-archive-
 
       - name: Configure auth
         run: python scripts/configure_auth.py
