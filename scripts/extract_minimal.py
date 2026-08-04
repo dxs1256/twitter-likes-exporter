@@ -15,8 +15,9 @@ def get_best_media_url(media_item: dict) -> str | None:
 
 
 def get_media_thumbnail(media_item: dict) -> str | None:
-    """Get the video cover / thumbnail URL (media_url_https for videos)."""
-    return media_item.get("media_url_https")
+    """Get the video cover / thumbnail URL."""
+    # tweetxvault export stores thumbnail in "thumbnail_url"
+    return media_item.get("thumbnail_url")
 
 
 def extract_minimal(json_path: str) -> list[dict]:
