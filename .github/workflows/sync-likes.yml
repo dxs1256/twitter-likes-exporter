@@ -71,6 +71,7 @@ jobs:
           python scripts/extract_minimal.py exports/full_archive.json exports/likes_mini.json
           python scripts/extract_links.py exports/full_archive.json > exports/likes_links.txt
 
+
       - name: Commit and push
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
