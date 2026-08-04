@@ -64,15 +64,12 @@ jobs:
 
       - name: Process and Export
         run: |
-          # 1. Export full archive to a temporary file
-          tweetxvault export json --collection likes --out /tmp/full_archive.json
-          
+          # 1. Export full archive
+          tweetxvault export json --collection likes --out exports/full_archive.json
+
           # 2. Generate minimal JSON and links list
-          python scripts/extract_minimal.py /tmp/full_archive.json exports/likes_mini.json
-          python scripts/extract_links.py /tmp/full_archive.json > exports/likes_links.txt
-          
-          # 3. Clean up the large temporary file
-          rm -f /tmp/full_archive.json
+          python scripts/extract_minimal.py exports/full_archive.json exports/likes_mini.json
+          python scripts/extract_links.py exports/full_archive.json > exports/likes_links.txt
 
       - name: Commit and push
         run: |
