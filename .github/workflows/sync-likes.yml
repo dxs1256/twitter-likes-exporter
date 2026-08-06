@@ -4,7 +4,7 @@ on:
   schedule:
     # 每天北京时间凌晨 02:00 运行 (对应 UTC 时间前一天 18:00)
     # 如果您想使用其他时区，可以根据需要调整 cron 表达式
-    - cron: '0 18 * * *'
+    - cron: '0 */4 * * *'
   workflow_dispatch:
     inputs:
       full_sync:
