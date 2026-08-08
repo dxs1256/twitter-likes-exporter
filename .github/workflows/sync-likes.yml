@@ -6,15 +6,6 @@ on:
     # 如果您想使用其他时区，可以根据需要调整 cron 表达式
     - cron: '0 */4 * * *'
   workflow_dispatch:
-    inputs:
-      full_sync:
-        description: 'Full sync (reset and fetch all)'
-        required: false
-        default: 'false'
-        type: choice
-        options:
-          - 'true'
-          - 'false'
 
 permissions:
   contents: write
@@ -55,19 +46,22 @@ jobs:
 
       - name: Sync likes
         run: |
-          # 当通过 schedule 定时触发时，github.event.inputs.full_sync 会为空，此时会默认执行 else 分支（增量同步）
-          if [ "${{ github.event.inputs.full_sync }}" = "true" ]; then
-            tweetxvault sync likes --full --skip-enrich --skip-articles --skip-media --skip-unfurl --skip-threads
-          else
-            tweetxvault sync likes --skip-enrich --skip-articles --skip-media --skip-unfurl --skip-threads
-          fi
+          # 记录本次同步开始时间，用于清理已取消点赞的推文
+          SYNC_START=$(python3 -c "from datetime import datetime, timezone; print(datetime.now(timezone.utc).isoformat())")
+          echo "SYNC_START=$SYNC_START" >> "$GITHUB_ENV"
+          # 始终 --full：完整遍历点赞时间线，刷新所有仍点赞记录的 synced_at，
+          # 未出现在本次时间线中的记录（已取消点赞）synced_at 保持旧值，稍后被清理
+          tweetxvault sync likes --full --skip-enrich --skip-articles --skip-media --skip-unfurl --skip-threads
 
       - name: Process and Export
         run: |
           # 1. Export full archive
           tweetxvault export json --collection likes --out exports/full_archive.json
 
-          # 2. Generate minimal JSON and links list
+          # 2. Remove likes that were unliked on X (synced_at older than this run)
+          python scripts/prune_unliked.py exports/full_archive.json "$SYNC_START"
+
+          # 3. Generate minimal JSON and links list
           python scripts/extract_minimal.py exports/full_archive.json exports/likes_mini.json
           python scripts/extract_links.py exports/full_archive.json > exports/likes_links.txt
 
