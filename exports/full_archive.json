@@ -1,5 +1,1274 @@
 [
   {
+    "tweet_id": "2085883930318884935",
+    "text": "\u670b\u53cb\u5bb6\u597d\u5927\ud83d\ude33 https://t.co/ibcDOZRBBi",
+    "author": {
+      "id": "2029321893560631297",
+      "username": "bianca_jc1995",
+      "display_name": "\u738b\u8a9e\u747e"
+    },
+    "created_at": "Sat Aug 08 00:20:57 +0000 2026",
+    "collection": {
+      "type": "like",
+      "folder_id": null,
+      "sort_index": "2085955611115126784",
+      "added_at": "2026-08-08T05:05:47.689806+00:00",
+      "synced_at": "2026-08-08T05:05:47.689806+00:00"
+    },
+    "media": [
+      {
+        "media_key": "13_2085883912103034880",
+        "type": "video",
+        "source": "tweet_media",
+        "article_id": null,
+        "position": 0,
+        "url": "https://video.twimg.com/amplify_video/2085883912103034880/vid/avc1/412x718/22YjvzlJbnhn88tY.mp4?tag=29",
+        "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2085883912103034880/img/I_lelwytPP7vjiHA.jpg",
+        "width": 412,
+        "height": 718,
+        "duration_millis": 3516,
+        "variants": [
+          {
+            "bitrate": null,
+            "content_type": "application/x-mpegURL",
+            "url": "https://video.twimg.com/amplify_video/2085883912103034880/pl/st7ZNCqEqNpv9BoW.m3u8?tag=29"
+          },
+          {
+            "bitrate": 632000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2085883912103034880/vid/avc1/320x556/--Fymnj8-8LyiZEl.mp4?tag=29"
+          },
+          {
+            "bitrate": 950000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2085883912103034880/vid/avc1/412x718/22YjvzlJbnhn88tY.mp4?tag=29"
+          }
+        ],
+        "download": {
+          "state": "pending",
+          "local_path": null,
+          "sha256": null,
+          "byte_size": null,
+          "content_type": null,
+          "thumbnail_local_path": null,
+          "thumbnail_sha256": null,
+          "thumbnail_byte_size": null,
+          "thumbnail_content_type": null,
+          "downloaded_at": null,
+          "error": null
+        }
+      }
+    ],
+    "urls": [],
+    "article": null,
+    "raw_json": {
+      "__typename": "Tweet",
+      "core": {
+        "user_results": {
+          "result": {
+            "__typename": "User",
+            "affiliates_highlighted_label": {},
+            "avatar": {
+              "image_url": "https://pbs.twimg.com/profile_images/2039617477131599872/VvZGhmkF_normal.jpg"
+            },
+            "core": {
+              "created_at": "Wed Mar 04 22:23:53 +0000 2026",
+              "name": "\u738b\u8a9e\u747e",
+              "screen_name": "bianca_jc1995"
+            },
+            "dm_permissions": {
+              "can_dm": true
+            },
+            "follow_request_sent": false,
+            "has_graduated_access": true,
+            "id": "VXNlcjoyMDI5MzIxODkzNTYwNjMxMjk3",
+            "is_blue_verified": true,
+            "legacy": {
+              "default_profile": true,
+              "default_profile_image": false,
+              "description": "\u8089\u5e33 @wyybaby1995 Other than the links in my bio, I don't use any dating apps or Telegram groups. All others are impersonators.",
+              "entities": {
+                "description": {}
+              },
+              "fast_followers_count": 0,
+              "favourites_count": 235,
+              "follow_request_sent": false,
+              "followers_count": 303849,
+              "friends_count": 38,
+              "has_custom_timelines": false,
+              "is_translator": false,
+              "listed_count": 565,
+              "media_count": 288,
+              "needs_phone_verification": false,
+              "normal_followers_count": 303849,
+              "notifications": false,
+              "pinned_tweet_ids_str": [
+                "2039875728242806860"
+              ],
+              "possibly_sensitive": false,
+              "profile_banner_url": "https://pbs.twimg.com/profile_banners/2029321893560631297/1772664392",
+              "profile_interstitial_type": "",
+              "statuses_count": 364,
+              "time_zone": "",
+              "translator_type": "none",
+              "url": "",
+              "utc_offset": 0,
+              "want_retweets": false,
+              "withheld_description": "",
+              "withheld_scope": ""
+            },
+            "location": {
+              "location": ""
+            },
+            "media_permissions": {
+              "can_media_tag": false
+            },
+            "parody_commentary_fan_label": "None",
+            "privacy": {
+              "protected": false
+            },
+            "professional": {
+              "category": [],
+              "professional_type": "Creator",
+              "rest_id": "2061829608107049102"
+            },
+            "profile_bio": {
+              "description": "\u8089\u5e33 @wyybaby1995 Other than the links in my bio, I don't use any dating apps or Telegram groups. All others are impersonators."
+            },
+            "profile_description_language": "en",
+            "profile_image_shape": "Circle",
+            "relationship_perspectives": {
+              "blocked_by": false,
+              "blocking": false,
+              "followed_by": false,
+              "following": false,
+              "muting": false
+            },
+            "rest_id": "2029321893560631297",
+            "super_follow_eligible": false,
+            "super_followed_by": false,
+            "super_following": false,
+            "verification": {
+              "verified": false
+            }
+          }
+        }
+      },
+      "edit_control": {
+        "edit_tweet_ids": [
+          "2085883930318884935"
+        ],
+        "editable_until_msecs": "1786152057000",
+        "edits_remaining": "5",
+        "is_edit_eligible": true
+      },
+      "grok_analysis_button": true,
+      "grok_annotations": {
+        "is_image_editable_by_grok": true
+      },
+      "is_translatable": false,
+      "legacy": {
+        "bookmark_count": 326,
+        "bookmarked": false,
+        "conversation_id_str": "2085883930318884935",
+        "created_at": "Sat Aug 08 00:20:57 +0000 2026",
+        "display_text_range": [
+          0,
+          6
+        ],
+        "entities": {
+          "media": [
+            {
+              "additional_media_info": {
+                "monetizable": false
+              },
+              "allow_download_status": {
+                "allow_download": true
+              },
+              "display_url": "pic.x.com/ibcDOZRBBi",
+              "expanded_url": "https://x.com/bianca_jc1995/status/2085883930318884935/video/1",
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "id_str": "2085883912103034880",
+              "indices": [
+                7,
+                30
+              ],
+              "media_key": "13_2085883912103034880",
+              "media_results": {
+                "result": {
+                  "media_key": "13_2085883912103034880"
+                }
+              },
+              "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2085883912103034880/img/I_lelwytPP7vjiHA.jpg",
+              "original_info": {
+                "focus_rects": [],
+                "height": 718,
+                "width": 412
+              },
+              "sizes": {
+                "large": {
+                  "h": 718,
+                  "resize": "fit",
+                  "w": 412
+                },
+                "medium": {
+                  "h": 718,
+                  "resize": "fit",
+                  "w": 412
+                },
+                "small": {
+                  "h": 680,
+                  "resize": "fit",
+                  "w": 390
+                },
+                "thumb": {
+                  "h": 150,
+                  "resize": "crop",
+                  "w": 150
+                }
+              },
+              "type": "video",
+              "url": "https://t.co/ibcDOZRBBi",
+              "video_info": {
+                "aspect_ratio": [
+                  206,
+                  359
+                ],
+                "duration_millis": 3516,
+                "variants": [
+                  {
+                    "content_type": "application/x-mpegURL",
+                    "url": "https://video.twimg.com/amplify_video/2085883912103034880/pl/st7ZNCqEqNpv9BoW.m3u8?tag=29"
+                  },
+                  {
+                    "bitrate": 632000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/2085883912103034880/vid/avc1/320x556/--Fymnj8-8LyiZEl.mp4?tag=29"
+                  },
+                  {
+                    "bitrate": 950000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/2085883912103034880/vid/avc1/412x718/22YjvzlJbnhn88tY.mp4?tag=29"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "additional_media_info": {
+                "monetizable": false
+              },
+              "allow_download_status": {
+                "allow_download": true
+              },
+              "display_url": "pic.x.com/ibcDOZRBBi",
+              "expanded_url": "https://x.com/bianca_jc1995/status/2085883930318884935/video/1",
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "id_str": "2085883912103034880",
+              "indices": [
+                7,
+                30
+              ],
+              "media_key": "13_2085883912103034880",
+              "media_results": {
+                "result": {
+                  "media_key": "13_2085883912103034880"
+                }
+              },
+              "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2085883912103034880/img/I_lelwytPP7vjiHA.jpg",
+              "original_info": {
+                "focus_rects": [],
+                "height": 718,
+                "width": 412
+              },
+              "sizes": {
+                "large": {
+                  "h": 718,
+                  "resize": "fit",
+                  "w": 412
+                },
+                "medium": {
+                  "h": 718,
+                  "resize": "fit",
+                  "w": 412
+                },
+                "small": {
+                  "h": 680,
+                  "resize": "fit",
+                  "w": 390
+                },
+                "thumb": {
+                  "h": 150,
+                  "resize": "crop",
+                  "w": 150
+                }
+              },
+              "type": "video",
+              "url": "https://t.co/ibcDOZRBBi",
+              "video_info": {
+                "aspect_ratio": [
+                  206,
+                  359
+                ],
+                "duration_millis": 3516,
+                "variants": [
+                  {
+                    "content_type": "application/x-mpegURL",
+                    "url": "https://video.twimg.com/amplify_video/2085883912103034880/pl/st7ZNCqEqNpv9BoW.m3u8?tag=29"
+                  },
+                  {
+                    "bitrate": 632000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/2085883912103034880/vid/avc1/320x556/--Fymnj8-8LyiZEl.mp4?tag=29"
+                  },
+                  {
+                    "bitrate": 950000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/2085883912103034880/vid/avc1/412x718/22YjvzlJbnhn88tY.mp4?tag=29"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "favorite_count": 2020,
+        "favorited": true,
+        "full_text": "\u670b\u53cb\u5bb6\u597d\u5927\ud83d\ude33 https://t.co/ibcDOZRBBi",
+        "id_str": "2085883930318884935",
+        "is_quote_status": false,
+        "lang": "ja",
+        "possibly_sensitive": false,
+        "possibly_sensitive_editable": true,
+        "quote_count": 2,
+        "reply_count": 125,
+        "retweet_count": 31,
+        "retweeted": false,
+        "user_id_str": "2029321893560631297"
+      },
+      "rest_id": "2085883930318884935",
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "unmention_data": {},
+      "views": {
+        "count": "37357",
+        "state": "EnabledWithCount"
+      }
+    }
+  },
+  {
+    "tweet_id": "2085539236632289374",
+    "text": "\u5144\u5f1f\u4eec\uff0cAMD \u514d\u8d39\u9001 DeepSeek-V4-Flash 0731 \u4e86\uff01\n\n\u53ea\u9700\u8981\u5728 Cherry Studio \u8bbe\u7f6e\u91cc\u9762\u6dfb\u52a0\uff0c\u76f4\u63a5\u6253\u5f00\u8fd9\u4e2a Token Factory\uff0c\u5c31\u53ef\u4ee5\u76f4\u63a5\u83b7\u53d6\u6bcf\u65e5 10 \u7f8e\u5143\u7684\u514d\u8d39 API \uff01\n\n\u5feb\u53bb\u8585\u7f8a\u6bdb\uff01\u800c\u4e14\u4e0d\u5728 Cherry \u91cc\u9762\uff0c\u4e5f\u53ef\u4ee5\u76f4\u63a5\u914d\u7f6e\u5230\u522b\u7684Agent\u7528\uff01 https://t.co/YFF9QtgIUe",
+    "author": {
+      "id": "1760476466037559297",
+      "username": "chasen_liao",
+      "display_name": "Chasen"
+    },
+    "created_at": "Fri Aug 07 01:31:16 +0000 2026",
+    "collection": {
+      "type": "like",
+      "folder_id": null,
+      "sort_index": "2085955611115126783",
+      "added_at": "2026-08-08T05:05:47.694006+00:00",
+      "synced_at": "2026-08-08T05:05:47.694006+00:00"
+    },
+    "media": [
+      {
+        "media_key": "3_2085538358953222144",
+        "type": "photo",
+        "source": "tweet_media",
+        "article_id": null,
+        "position": 0,
+        "url": "https://pbs.twimg.com/media/HPFSFnrboAAsLkx.jpg",
+        "thumbnail_url": "https://pbs.twimg.com/media/HPFSFnrboAAsLkx.jpg",
+        "width": 2470,
+        "height": 1516,
+        "duration_millis": null,
+        "variants": [],
+        "download": {
+          "state": "pending",
+          "local_path": null,
+          "sha256": null,
+          "byte_size": null,
+          "content_type": null,
+          "thumbnail_local_path": null,
+          "thumbnail_sha256": null,
+          "thumbnail_byte_size": null,
+          "thumbnail_content_type": null,
+          "downloaded_at": null,
+          "error": null
+        }
+      },
+      {
+        "media_key": "3_2085538493867204608",
+        "type": "photo",
+        "source": "tweet_media",
+        "article_id": null,
+        "position": 1,
+        "url": "https://pbs.twimg.com/media/HPFSNeRboAAPsnr.jpg",
+        "thumbnail_url": "https://pbs.twimg.com/media/HPFSNeRboAAPsnr.jpg",
+        "width": 1177,
+        "height": 476,
+        "duration_millis": null,
+        "variants": [],
+        "download": {
+          "state": "pending",
+          "local_path": null,
+          "sha256": null,
+          "byte_size": null,
+          "content_type": null,
+          "thumbnail_local_path": null,
+          "thumbnail_sha256": null,
+          "thumbnail_byte_size": null,
+          "thumbnail_content_type": null,
+          "downloaded_at": null,
+          "error": null
+        }
+      },
+      {
+        "media_key": "3_2085539223487369217",
+        "type": "photo",
+        "source": "tweet_media",
+        "article_id": null,
+        "position": 2,
+        "url": "https://pbs.twimg.com/media/HPFS38Ub0AEzcRw.jpg",
+        "thumbnail_url": "https://pbs.twimg.com/media/HPFS38Ub0AEzcRw.jpg",
+        "width": 1120,
+        "height": 711,
+        "duration_millis": null,
+        "variants": [],
+        "download": {
+          "state": "pending",
+          "local_path": null,
+          "sha256": null,
+          "byte_size": null,
+          "content_type": null,
+          "thumbnail_local_path": null,
+          "thumbnail_sha256": null,
+          "thumbnail_byte_size": null,
+          "thumbnail_content_type": null,
+          "downloaded_at": null,
+          "error": null
+        }
+      }
+    ],
+    "urls": [],
+    "article": null,
+    "raw_json": {
+      "__typename": "Tweet",
+      "core": {
+        "user_results": {
+          "result": {
+            "__typename": "User",
+            "affiliates_highlighted_label": {},
+            "avatar": {
+              "image_url": "https://pbs.twimg.com/profile_images/2079135588792651776/CrCkegI7_normal.jpg"
+            },
+            "core": {
+              "created_at": "Thu Feb 22 01:28:17 +0000 2024",
+              "name": "Chasen",
+              "screen_name": "chasen_liao"
+            },
+            "dm_permissions": {
+              "can_dm": false
+            },
+            "follow_request_sent": false,
+            "has_graduated_access": true,
+            "id": "VXNlcjoxNzYwNDc2NDY2MDM3NTU5Mjk3",
+            "is_blue_verified": true,
+            "legacy": {
+              "default_profile": true,
+              "default_profile_image": false,
+              "description": "AI \u539f\u4f4f\u6c11 | Vibe Coding & AI Agent \u5b9e\u6218\u73a9\u5bb6\n20\u5c81\u5927\u56db\u5b9e\u4e60\u751f\uff0c\u6bcf\u5929\u8ffd\u9010\u524d\u6cbf AI \u5de5\u5177\n\u5206\u4eab Agent \u4f7f\u7528\u6280\u5de7\u3001AI\u524d\u6cbf\u52a8\u6001\u3001Vibe Coding\u771f\u5b9e\u5de5\u4f5c\u6d41\n\n\u201c\u4e0d\u505c\u8ffd\u9010\u201d\n\n\u4e2a\u4eba\u4ecb\u7ecd\u9875 \u27a1\ufe0f https://t.co/o1yvvaEulq",
+              "entities": {
+                "description": {
+                  "urls": [
+                    {
+                      "display_url": "chasen-intro.vercel.app",
+                      "expanded_url": "https://chasen-intro.vercel.app/",
+                      "indices": [
+                        115,
+                        138
+                      ],
+                      "url": "https://t.co/o1yvvaEulq"
+                    }
+                  ]
+                },
+                "url": {
+                  "urls": [
+                    {
+                      "display_url": "chasen-clog.cc.cd",
+                      "expanded_url": "https://chasen-clog.cc.cd/",
+                      "indices": [
+                        0,
+                        23
+                      ],
+                      "url": "https://t.co/ZxWhUEdbCr"
+                    }
+                  ]
+                }
+              },
+              "fast_followers_count": 0,
+              "favourites_count": 2614,
+              "follow_request_sent": false,
+              "followers_count": 2252,
+              "friends_count": 2005,
+              "has_custom_timelines": false,
+              "is_translator": false,
+              "listed_count": 2,
+              "media_count": 199,
+              "needs_phone_verification": false,
+              "normal_followers_count": 2252,
+              "notifications": false,
+              "pinned_tweet_ids_str": [
+                "2083224775527469293"
+              ],
+              "possibly_sensitive": false,
+              "profile_banner_url": "https://pbs.twimg.com/profile_banners/1760476466037559297/1772632094",
+              "profile_interstitial_type": "",
+              "statuses_count": 4328,
+              "time_zone": "",
+              "translator_type": "none",
+              "url": "https://t.co/ZxWhUEdbCr",
+              "utc_offset": 0,
+              "want_retweets": false,
+              "withheld_description": "",
+              "withheld_scope": ""
+            },
+            "location": {
+              "location": "Wan Chai District, Hong Kong"
+            },
+            "media_permissions": {
+              "can_media_tag": false
+            },
+            "parody_commentary_fan_label": "None",
+            "privacy": {
+              "protected": false
+            },
+            "professional": {
+              "category": [
+                {
+                  "icon_name": "IconBriefcaseStroke",
+                  "id": 713,
+                  "name": "Science & Technology"
+                }
+              ],
+              "professional_type": "Creator",
+              "rest_id": "1766657895301886045"
+            },
+            "profile_bio": {
+              "description": "AI \u539f\u4f4f\u6c11 | Vibe Coding & AI Agent \u5b9e\u6218\u73a9\u5bb6\n20\u5c81\u5927\u56db\u5b9e\u4e60\u751f\uff0c\u6bcf\u5929\u8ffd\u9010\u524d\u6cbf AI \u5de5\u5177\n\u5206\u4eab Agent \u4f7f\u7528\u6280\u5de7\u3001AI\u524d\u6cbf\u52a8\u6001\u3001Vibe Coding\u771f\u5b9e\u5de5\u4f5c\u6d41\n\n\u201c\u4e0d\u505c\u8ffd\u9010\u201d\n\n\u4e2a\u4eba\u4ecb\u7ecd\u9875 \u27a1\ufe0f https://t.co/o1yvvaEulq"
+            },
+            "profile_description_language": "zh",
+            "profile_image_shape": "Circle",
+            "relationship_perspectives": {
+              "blocked_by": false,
+              "blocking": false,
+              "followed_by": false,
+              "following": false,
+              "muting": false
+            },
+            "rest_id": "1760476466037559297",
+            "super_follow_eligible": false,
+            "super_followed_by": false,
+            "super_following": false,
+            "verification": {
+              "verified": false
+            }
+          }
+        }
+      },
+      "edit_control": {
+        "edit_tweet_ids": [
+          "2085539236632289374"
+        ],
+        "editable_until_msecs": "1786069876000",
+        "edits_remaining": "5",
+        "is_edit_eligible": false
+      },
+      "grok_analysis_button": true,
+      "grok_annotations": {
+        "is_image_editable_by_grok": true
+      },
+      "is_translatable": true,
+      "legacy": {
+        "bookmark_count": 902,
+        "bookmarked": false,
+        "conversation_id_str": "2085539236632289374",
+        "created_at": "Fri Aug 07 01:31:16 +0000 2026",
+        "display_text_range": [
+          0,
+          150
+        ],
+        "entities": {
+          "media": [
+            {
+              "allow_download_status": {
+                "allow_download": true
+              },
+              "display_url": "pic.x.com/YFF9QtgIUe",
+              "expanded_url": "https://x.com/chasen_liao/status/2085539236632289374/photo/1",
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "features": {
+                "large": {
+                  "faces": []
+                },
+                "medium": {
+                  "faces": []
+                },
+                "orig": {
+                  "faces": []
+                },
+                "small": {
+                  "faces": []
+                }
+              },
+              "id_str": "2085538358953222144",
+              "indices": [
+                151,
+                174
+              ],
+              "media_key": "3_2085538358953222144",
+              "media_results": {
+                "result": {
+                  "media_key": "3_2085538358953222144"
+                }
+              },
+              "media_url_https": "https://pbs.twimg.com/media/HPFSFnrboAAsLkx.jpg",
+              "original_info": {
+                "focus_rects": [
+                  {
+                    "h": 1383,
+                    "w": 2470,
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "h": 1516,
+                    "w": 1516,
+                    "x": 909,
+                    "y": 0
+                  },
+                  {
+                    "h": 1516,
+                    "w": 1330,
+                    "x": 1002,
+                    "y": 0
+                  },
+                  {
+                    "h": 1516,
+                    "w": 758,
+                    "x": 1288,
+                    "y": 0
+                  },
+                  {
+                    "h": 1516,
+                    "w": 2470,
+                    "x": 0,
+                    "y": 0
+                  }
+                ],
+                "height": 1516,
+                "width": 2470
+              },
+              "sizes": {
+                "large": {
+                  "h": 1257,
+                  "resize": "fit",
+                  "w": 2048
+                },
+                "medium": {
+                  "h": 737,
+                  "resize": "fit",
+                  "w": 1200
+                },
+                "small": {
+                  "h": 417,
+                  "resize": "fit",
+                  "w": 680
+                },
+                "thumb": {
+                  "h": 150,
+                  "resize": "crop",
+                  "w": 150
+                }
+              },
+              "type": "photo",
+              "url": "https://t.co/YFF9QtgIUe"
+            },
+            {
+              "allow_download_status": {
+                "allow_download": true
+              },
+              "display_url": "pic.x.com/YFF9QtgIUe",
+              "expanded_url": "https://x.com/chasen_liao/status/2085539236632289374/photo/1",
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "features": {
+                "large": {
+                  "faces": []
+                },
+                "medium": {
+                  "faces": []
+                },
+                "orig": {
+                  "faces": []
+                },
+                "small": {
+                  "faces": []
+                }
+              },
+              "id_str": "2085538493867204608",
+              "indices": [
+                151,
+                174
+              ],
+              "media_key": "3_2085538493867204608",
+              "media_results": {
+                "result": {
+                  "media_key": "3_2085538493867204608"
+                }
+              },
+              "media_url_https": "https://pbs.twimg.com/media/HPFSNeRboAAPsnr.jpg",
+              "original_info": {
+                "focus_rects": [
+                  {
+                    "h": 476,
+                    "w": 850,
+                    "x": 192,
+                    "y": 0
+                  },
+                  {
+                    "h": 476,
+                    "w": 476,
+                    "x": 379,
+                    "y": 0
+                  },
+                  {
+                    "h": 476,
+                    "w": 418,
+                    "x": 408,
+                    "y": 0
+                  },
+                  {
+                    "h": 476,
+                    "w": 238,
+                    "x": 498,
+                    "y": 0
+                  },
+                  {
+                    "h": 476,
+                    "w": 1177,
+                    "x": 0,
+                    "y": 0
+                  }
+                ],
+                "height": 476,
+                "width": 1177
+              },
+              "sizes": {
+                "large": {
+                  "h": 476,
+                  "resize": "fit",
+                  "w": 1177
+                },
+                "medium": {
+                  "h": 476,
+                  "resize": "fit",
+                  "w": 1177
+                },
+                "small": {
+                  "h": 275,
+                  "resize": "fit",
+                  "w": 680
+                },
+                "thumb": {
+                  "h": 150,
+                  "resize": "crop",
+                  "w": 150
+                }
+              },
+              "type": "photo",
+              "url": "https://t.co/YFF9QtgIUe"
+            },
+            {
+              "allow_download_status": {
+                "allow_download": true
+              },
+              "display_url": "pic.x.com/YFF9QtgIUe",
+              "expanded_url": "https://x.com/chasen_liao/status/2085539236632289374/photo/1",
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "features": {
+                "large": {
+                  "faces": [
+                    {
+                      "h": 133,
+                      "w": 133,
+                      "x": 35,
+                      "y": 535
+                    }
+                  ]
+                },
+                "medium": {
+                  "faces": [
+                    {
+                      "h": 133,
+                      "w": 133,
+                      "x": 35,
+                      "y": 535
+                    }
+                  ]
+                },
+                "orig": {
+                  "faces": [
+                    {
+                      "h": 133,
+                      "w": 133,
+                      "x": 35,
+                      "y": 535
+                    }
+                  ]
+                },
+                "small": {
+                  "faces": [
+                    {
+                      "h": 80,
+                      "w": 80,
+                      "x": 21,
+                      "y": 324
+                    }
+                  ]
+                }
+              },
+              "id_str": "2085539223487369217",
+              "indices": [
+                151,
+                174
+              ],
+              "media_key": "3_2085539223487369217",
+              "media_results": {
+                "result": {
+                  "media_key": "3_2085539223487369217"
+                }
+              },
+              "media_url_https": "https://pbs.twimg.com/media/HPFS38Ub0AEzcRw.jpg",
+              "original_info": {
+                "focus_rects": [
+                  {
+                    "h": 627,
+                    "w": 1120,
+                    "x": 0,
+                    "y": 51
+                  },
+                  {
+                    "h": 711,
+                    "w": 711,
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "h": 711,
+                    "w": 624,
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "h": 711,
+                    "w": 356,
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "h": 711,
+                    "w": 1120,
+                    "x": 0,
+                    "y": 0
+                  }
+                ],
+                "height": 711,
+                "width": 1120
+              },
+              "sizes": {
+                "large": {
+                  "h": 711,
+                  "resize": "fit",
+                  "w": 1120
+                },
+                "medium": {
+                  "h": 711,
+                  "resize": "fit",
+                  "w": 1120
+                },
+                "small": {
+                  "h": 432,
+                  "resize": "fit",
+                  "w": 680
+                },
+                "thumb": {
+                  "h": 150,
+                  "resize": "crop",
+                  "w": 150
+                }
+              },
+              "type": "photo",
+              "url": "https://t.co/YFF9QtgIUe"
+            }
+          ]
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "allow_download_status": {
+                "allow_download": true
+              },
+              "display_url": "pic.x.com/YFF9QtgIUe",
+              "expanded_url": "https://x.com/chasen_liao/status/2085539236632289374/photo/1",
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "features": {
+                "large": {
+                  "faces": []
+                },
+                "medium": {
+                  "faces": []
+                },
+                "orig": {
+                  "faces": []
+                },
+                "small": {
+                  "faces": []
+                }
+              },
+              "id_str": "2085538358953222144",
+              "indices": [
+                151,
+                174
+              ],
+              "media_key": "3_2085538358953222144",
+              "media_results": {
+                "result": {
+                  "media_key": "3_2085538358953222144"
+                }
+              },
+              "media_url_https": "https://pbs.twimg.com/media/HPFSFnrboAAsLkx.jpg",
+              "original_info": {
+                "focus_rects": [
+                  {
+                    "h": 1383,
+                    "w": 2470,
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "h": 1516,
+                    "w": 1516,
+                    "x": 909,
+                    "y": 0
+                  },
+                  {
+                    "h": 1516,
+                    "w": 1330,
+                    "x": 1002,
+                    "y": 0
+                  },
+                  {
+                    "h": 1516,
+                    "w": 758,
+                    "x": 1288,
+                    "y": 0
+                  },
+                  {
+                    "h": 1516,
+                    "w": 2470,
+                    "x": 0,
+                    "y": 0
+                  }
+                ],
+                "height": 1516,
+                "width": 2470
+              },
+              "sizes": {
+                "large": {
+                  "h": 1257,
+                  "resize": "fit",
+                  "w": 2048
+                },
+                "medium": {
+                  "h": 737,
+                  "resize": "fit",
+                  "w": 1200
+                },
+                "small": {
+                  "h": 417,
+                  "resize": "fit",
+                  "w": 680
+                },
+                "thumb": {
+                  "h": 150,
+                  "resize": "crop",
+                  "w": 150
+                }
+              },
+              "type": "photo",
+              "url": "https://t.co/YFF9QtgIUe"
+            },
+            {
+              "allow_download_status": {
+                "allow_download": true
+              },
+              "display_url": "pic.x.com/YFF9QtgIUe",
+              "expanded_url": "https://x.com/chasen_liao/status/2085539236632289374/photo/1",
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "features": {
+                "large": {
+                  "faces": []
+                },
+                "medium": {
+                  "faces": []
+                },
+                "orig": {
+                  "faces": []
+                },
+                "small": {
+                  "faces": []
+                }
+              },
+              "id_str": "2085538493867204608",
+              "indices": [
+                151,
+                174
+              ],
+              "media_key": "3_2085538493867204608",
+              "media_results": {
+                "result": {
+                  "media_key": "3_2085538493867204608"
+                }
+              },
+              "media_url_https": "https://pbs.twimg.com/media/HPFSNeRboAAPsnr.jpg",
+              "original_info": {
+                "focus_rects": [
+                  {
+                    "h": 476,
+                    "w": 850,
+                    "x": 192,
+                    "y": 0
+                  },
+                  {
+                    "h": 476,
+                    "w": 476,
+                    "x": 379,
+                    "y": 0
+                  },
+                  {
+                    "h": 476,
+                    "w": 418,
+                    "x": 408,
+                    "y": 0
+                  },
+                  {
+                    "h": 476,
+                    "w": 238,
+                    "x": 498,
+                    "y": 0
+                  },
+                  {
+                    "h": 476,
+                    "w": 1177,
+                    "x": 0,
+                    "y": 0
+                  }
+                ],
+                "height": 476,
+                "width": 1177
+              },
+              "sizes": {
+                "large": {
+                  "h": 476,
+                  "resize": "fit",
+                  "w": 1177
+                },
+                "medium": {
+                  "h": 476,
+                  "resize": "fit",
+                  "w": 1177
+                },
+                "small": {
+                  "h": 275,
+                  "resize": "fit",
+                  "w": 680
+                },
+                "thumb": {
+                  "h": 150,
+                  "resize": "crop",
+                  "w": 150
+                }
+              },
+              "type": "photo",
+              "url": "https://t.co/YFF9QtgIUe"
+            },
+            {
+              "allow_download_status": {
+                "allow_download": true
+              },
+              "display_url": "pic.x.com/YFF9QtgIUe",
+              "expanded_url": "https://x.com/chasen_liao/status/2085539236632289374/photo/1",
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "features": {
+                "large": {
+                  "faces": [
+                    {
+                      "h": 133,
+                      "w": 133,
+                      "x": 35,
+                      "y": 535
+                    }
+                  ]
+                },
+                "medium": {
+                  "faces": [
+                    {
+                      "h": 133,
+                      "w": 133,
+                      "x": 35,
+                      "y": 535
+                    }
+                  ]
+                },
+                "orig": {
+                  "faces": [
+                    {
+                      "h": 133,
+                      "w": 133,
+                      "x": 35,
+                      "y": 535
+                    }
+                  ]
+                },
+                "small": {
+                  "faces": [
+                    {
+                      "h": 80,
+                      "w": 80,
+                      "x": 21,
+                      "y": 324
+                    }
+                  ]
+                }
+              },
+              "id_str": "2085539223487369217",
+              "indices": [
+                151,
+                174
+              ],
+              "media_key": "3_2085539223487369217",
+              "media_results": {
+                "result": {
+                  "media_key": "3_2085539223487369217"
+                }
+              },
+              "media_url_https": "https://pbs.twimg.com/media/HPFS38Ub0AEzcRw.jpg",
+              "original_info": {
+                "focus_rects": [
+                  {
+                    "h": 627,
+                    "w": 1120,
+                    "x": 0,
+                    "y": 51
+                  },
+                  {
+                    "h": 711,
+                    "w": 711,
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "h": 711,
+                    "w": 624,
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "h": 711,
+                    "w": 356,
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "h": 711,
+                    "w": 1120,
+                    "x": 0,
+                    "y": 0
+                  }
+                ],
+                "height": 711,
+                "width": 1120
+              },
+              "sizes": {
+                "large": {
+                  "h": 711,
+                  "resize": "fit",
+                  "w": 1120
+                },
+                "medium": {
+                  "h": 711,
+                  "resize": "fit",
+                  "w": 1120
+                },
+                "small": {
+                  "h": 432,
+                  "resize": "fit",
+                  "w": 680
+                },
+                "thumb": {
+                  "h": 150,
+                  "resize": "crop",
+                  "w": 150
+                }
+              },
+              "type": "photo",
+              "url": "https://t.co/YFF9QtgIUe"
+            }
+          ]
+        },
+        "favorite_count": 652,
+        "favorited": true,
+        "full_text": "\u5144\u5f1f\u4eec\uff0cAMD \u514d\u8d39\u9001 DeepSeek-V4-Flash 0731 \u4e86\uff01\n\n\u53ea\u9700\u8981\u5728 Cherry Studio \u8bbe\u7f6e\u91cc\u9762\u6dfb\u52a0\uff0c\u76f4\u63a5\u6253\u5f00\u8fd9\u4e2a Token Factory\uff0c\u5c31\u53ef\u4ee5\u76f4\u63a5\u83b7\u53d6\u6bcf\u65e5 10 \u7f8e\u5143\u7684\u514d\u8d39 API \uff01\n\n\u5feb\u53bb\u8585\u7f8a\u6bdb\uff01\u800c\u4e14\u4e0d\u5728 Cherry \u91cc\u9762\uff0c\u4e5f\u53ef\u4ee5\u76f4\u63a5\u914d\u7f6e\u5230\u522b\u7684Agent\u7528\uff01 https://t.co/YFF9QtgIUe",
+        "id_str": "2085539236632289374",
+        "is_quote_status": false,
+        "lang": "zh",
+        "possibly_sensitive": false,
+        "possibly_sensitive_editable": true,
+        "quote_count": 6,
+        "reply_count": 29,
+        "retweet_count": 66,
+        "retweeted": false,
+        "user_id_str": "1760476466037559297"
+      },
+      "rest_id": "2085539236632289374",
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "unmention_data": {},
+      "views": {
+        "count": "57519",
+        "state": "EnabledWithCount"
+      }
+    }
+  },
+  {
     "tweet_id": "2085182766400835617",
     "text": "https://t.co/0atzLDkENX",
     "author": {
@@ -11,9 +1280,9 @@
     "collection": {
       "type": "like",
       "folder_id": null,
-      "sort_index": "2085910899733823488",
-      "added_at": "2026-08-08T02:08:07.679140+00:00",
-      "synced_at": "2026-08-08T02:08:07.679140+00:00"
+      "sort_index": "2085955611115126782",
+      "added_at": "2026-08-08T05:05:47.697597+00:00",
+      "synced_at": "2026-08-08T05:05:47.697597+00:00"
     },
     "media": [
       {
@@ -97,14 +1366,14 @@
               "fast_followers_count": 0,
               "favourites_count": 6,
               "follow_request_sent": false,
-              "followers_count": 2724,
+              "followers_count": 2723,
               "friends_count": 0,
               "has_custom_timelines": false,
               "is_translator": false,
               "listed_count": 4,
               "media_count": 27,
               "needs_phone_verification": false,
-              "normal_followers_count": 2724,
+              "normal_followers_count": 2723,
               "notifications": false,
               "possibly_sensitive": true,
               "profile_banner_url": "",
@@ -348,7 +1617,7 @@
             }
           ]
         },
-        "favorite_count": 12439,
+        "favorite_count": 12443,
         "favorited": true,
         "full_text": "https://t.co/0atzLDkENX",
         "id_str": "2085182766400835617",
@@ -366,7 +1635,7 @@
       "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
       "unmention_data": {},
       "views": {
-        "count": "420250",
+        "count": "421093",
         "state": "EnabledWithCount"
       }
     }
@@ -383,9 +1652,9 @@
     "collection": {
       "type": "like",
       "folder_id": null,
-      "sort_index": "2085910899733823485",
-      "added_at": "2026-08-08T02:08:07.689940+00:00",
-      "synced_at": "2026-08-08T02:08:07.689940+00:00"
+      "sort_index": "2085955611115126779",
+      "added_at": "2026-08-08T05:05:47.707641+00:00",
+      "synced_at": "2026-08-08T05:05:47.707641+00:00"
     },
     "media": [
       {
@@ -483,14 +1752,14 @@
               "fast_followers_count": 0,
               "favourites_count": 0,
               "follow_request_sent": false,
-              "followers_count": 389,
+              "followers_count": 388,
               "friends_count": 1,
               "has_custom_timelines": false,
               "is_translator": false,
               "listed_count": 0,
               "media_count": 22,
               "needs_phone_verification": false,
-              "normal_followers_count": 389,
+              "normal_followers_count": 388,
               "notifications": false,
               "pinned_tweet_ids_str": [
                 "2084583520450597356"
@@ -745,7 +2014,7 @@
       "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
       "unmention_data": {},
       "views": {
-        "count": "2162",
+        "count": "2165",
         "state": "EnabledWithCount"
       }
     }
@@ -762,9 +2031,9 @@
     "collection": {
       "type": "like",
       "folder_id": null,
-      "sort_index": "2085910899733823487",
-      "added_at": "2026-08-08T02:08:07.683279+00:00",
-      "synced_at": "2026-08-08T02:08:07.683279+00:00"
+      "sort_index": "2085955611115126781",
+      "added_at": "2026-08-08T05:05:47.700960+00:00",
+      "synced_at": "2026-08-08T05:05:47.700960+00:00"
     },
     "media": [
       {
@@ -871,16 +2140,16 @@
                 }
               },
               "fast_followers_count": 0,
-              "favourites_count": 51331,
+              "favourites_count": 51340,
               "follow_request_sent": false,
-              "followers_count": 222462,
+              "followers_count": 222414,
               "friends_count": 44,
               "has_custom_timelines": false,
               "is_translator": false,
               "listed_count": 388,
               "media_count": 48,
               "needs_phone_verification": false,
-              "normal_followers_count": 222462,
+              "normal_followers_count": 222414,
               "notifications": false,
               "pinned_tweet_ids_str": [
                 "2085320166301126978"
@@ -888,7 +2157,7 @@
               "possibly_sensitive": true,
               "profile_banner_url": "https://pbs.twimg.com/profile_banners/1008002462639443969/1779809096",
               "profile_interstitial_type": "sensitive_media",
-              "statuses_count": 462401,
+              "statuses_count": 462372,
               "time_zone": "",
               "translator_type": "none",
               "url": "https://t.co/BLfcElSs7Z",
@@ -946,7 +2215,7 @@
       },
       "is_translatable": false,
       "legacy": {
-        "bookmark_count": 630,
+        "bookmark_count": 631,
         "bookmarked": false,
         "conversation_id_str": "2084576473252294954",
         "created_at": "Tue Aug 04 09:45:35 +0000 2026",
@@ -1126,7 +2395,7 @@
             }
           ]
         },
-        "favorite_count": 2961,
+        "favorite_count": 2973,
         "favorited": true,
         "full_text": "Can you help me wash my back?\ud83d\udca6\ud83e\udd17 https://t.co/FUBcP502KT",
         "id_str": "2084576473252294954",
@@ -1136,7 +2405,7 @@
         "possibly_sensitive_editable": false,
         "quote_count": 2,
         "reply_count": 41,
-        "retweet_count": 789,
+        "retweet_count": 793,
         "retweeted": false,
         "user_id_str": "1008002462639443969"
       },
@@ -1144,7 +2413,7 @@
       "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
       "unmention_data": {},
       "views": {
-        "count": "44839",
+        "count": "45082",
         "state": "EnabledWithCount"
       }
     }
@@ -1161,9 +2430,9 @@
     "collection": {
       "type": "like",
       "folder_id": null,
-      "sort_index": "2085910899733823483",
-      "added_at": "2026-08-08T02:08:07.696760+00:00",
-      "synced_at": "2026-08-08T02:08:07.696760+00:00"
+      "sort_index": "2085955611115126777",
+      "added_at": "2026-08-08T05:05:47.714400+00:00",
+      "synced_at": "2026-08-08T05:05:47.714400+00:00"
     },
     "media": [
       {
@@ -1285,14 +2554,14 @@
               "fast_followers_count": 0,
               "favourites_count": 171,
               "follow_request_sent": false,
-              "followers_count": 194558,
+              "followers_count": 194807,
               "friends_count": 912,
               "has_custom_timelines": false,
               "is_translator": false,
               "listed_count": 273,
-              "media_count": 1593,
+              "media_count": 1594,
               "needs_phone_verification": false,
-              "normal_followers_count": 194558,
+              "normal_followers_count": 194807,
               "notifications": false,
               "pinned_tweet_ids_str": [
                 "2085850366772379944"
@@ -1300,7 +2569,7 @@
               "possibly_sensitive": true,
               "profile_banner_url": "https://pbs.twimg.com/profile_banners/1795911612718870529/1759875089",
               "profile_interstitial_type": "sensitive_media",
-              "statuses_count": 109095,
+              "statuses_count": 109133,
               "time_zone": "",
               "translator_type": "none",
               "url": "https://t.co/u83UbYJE0h",
@@ -1358,7 +2627,7 @@
       },
       "is_translatable": false,
       "legacy": {
-        "bookmark_count": 2395,
+        "bookmark_count": 2404,
         "bookmarked": false,
         "conversation_id_str": "2084298520622711130",
         "created_at": "Mon Aug 03 15:21:06 +0000 2026",
@@ -1549,7 +2818,7 @@
             }
           ]
         },
-        "favorite_count": 4487,
+        "favorite_count": 4519,
         "favorited": true,
         "full_text": "Chudai  \n\nhttps://t.co/qmaJM1YyM0 https://t.co/Dii7e5qCc6",
         "id_str": "2084298520622711130",
@@ -1559,7 +2828,7 @@
         "possibly_sensitive_editable": false,
         "quote_count": 0,
         "reply_count": 13,
-        "retweet_count": 469,
+        "retweet_count": 471,
         "retweeted": false,
         "user_id_str": "1795911612718870529"
       },
@@ -1567,7 +2836,7 @@
       "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
       "unmention_data": {},
       "views": {
-        "count": "79230",
+        "count": "80061",
         "state": "EnabledWithCount"
       }
     }
@@ -1584,9 +2853,9 @@
     "collection": {
       "type": "like",
       "folder_id": null,
-      "sort_index": "2085910899733823478",
+      "sort_index": "2085955611115126772",
       "added_at": "2026-08-03T13:55:55.095005+00:00",
-      "synced_at": "2026-08-08T02:08:07.715492+00:00"
+      "synced_at": "2026-08-08T05:05:47.733330+00:00"
     },
     "media": [
       {
@@ -1736,14 +3005,14 @@
               "fast_followers_count": 0,
               "favourites_count": 61003,
               "follow_request_sent": false,
-              "followers_count": 91087,
+              "followers_count": 91090,
               "friends_count": 3155,
               "has_custom_timelines": false,
               "is_translator": false,
               "listed_count": 1384,
-              "media_count": 6930,
+              "media_count": 6931,
               "needs_phone_verification": false,
-              "normal_followers_count": 91087,
+              "normal_followers_count": 91090,
               "notifications": false,
               "pinned_tweet_ids_str": [
                 "1513411404489162752"
@@ -1751,7 +3020,7 @@
               "possibly_sensitive": false,
               "profile_banner_url": "https://pbs.twimg.com/profile_banners/994471473929572352/1642409833",
               "profile_interstitial_type": "",
-              "statuses_count": 55473,
+              "statuses_count": 55474,
               "time_zone": "",
               "translator_type": "none",
               "url": "https://t.co/Jv85w9vEUq",
@@ -2410,7 +3679,7 @@
       "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
       "unmention_data": {},
       "views": {
-        "count": "5898",
+        "count": "5904",
         "state": "EnabledWithCount"
       }
     }
@@ -2427,9 +3696,9 @@
     "collection": {
       "type": "like",
       "folder_id": null,
-      "sort_index": "2085910899733823484",
-      "added_at": "2026-08-08T02:08:07.693392+00:00",
-      "synced_at": "2026-08-08T02:08:07.693392+00:00"
+      "sort_index": "2085955611115126778",
+      "added_at": "2026-08-08T05:05:47.711007+00:00",
+      "synced_at": "2026-08-08T05:05:47.711007+00:00"
     },
     "media": [
       {
@@ -2516,16 +3785,16 @@
                 }
               },
               "fast_followers_count": 0,
-              "favourites_count": 4880,
+              "favourites_count": 4882,
               "follow_request_sent": false,
-              "followers_count": 15612,
+              "followers_count": 15617,
               "friends_count": 2001,
               "has_custom_timelines": true,
               "is_translator": false,
               "listed_count": 88,
               "media_count": 3604,
               "needs_phone_verification": false,
-              "normal_followers_count": 15612,
+              "normal_followers_count": 15617,
               "notifications": false,
               "pinned_tweet_ids_str": [
                 "2080559855908335617"
@@ -2533,7 +3802,7 @@
               "possibly_sensitive": false,
               "profile_banner_url": "https://pbs.twimg.com/profile_banners/1580018839688880130/1667412670",
               "profile_interstitial_type": "",
-              "statuses_count": 17190,
+              "statuses_count": 17192,
               "time_zone": "",
               "translator_type": "none",
               "url": "https://t.co/YXVagbr5sx",
@@ -2875,7 +4144,7 @@
       "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
       "unmention_data": {},
       "views": {
-        "count": "69020",
+        "count": "69057",
         "state": "EnabledWithCount"
       }
     }
@@ -2892,9 +4161,9 @@
     "collection": {
       "type": "like",
       "folder_id": null,
-      "sort_index": "2085910899733823481",
-      "added_at": "2026-08-08T02:08:07.703431+00:00",
-      "synced_at": "2026-08-08T02:08:07.703431+00:00"
+      "sort_index": "2085955611115126775",
+      "added_at": "2026-08-08T05:05:47.721134+00:00",
+      "synced_at": "2026-08-08T05:05:47.721134+00:00"
     },
     "media": [
       {
@@ -3246,7 +4515,7 @@
         "possibly_sensitive_editable": true,
         "quote_count": 0,
         "reply_count": 4,
-        "retweet_count": 62,
+        "retweet_count": 61,
         "retweeted": false,
         "user_id_str": "137136201"
       },
@@ -3254,7 +4523,7 @@
       "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
       "unmention_data": {},
       "views": {
-        "count": "3129",
+        "count": "3132",
         "state": "EnabledWithCount"
       }
     }
@@ -3271,9 +4540,9 @@
     "collection": {
       "type": "like",
       "folder_id": null,
-      "sort_index": "2085910899733823479",
+      "sort_index": "2085955611115126773",
       "added_at": "2026-08-03T13:55:55.091396+00:00",
-      "synced_at": "2026-08-08T02:08:07.710111+00:00"
+      "synced_at": "2026-08-08T05:05:47.727775+00:00"
     },
     "media": [
       {
@@ -3363,14 +4632,14 @@
               "fast_followers_count": 0,
               "favourites_count": 9360,
               "follow_request_sent": false,
-              "followers_count": 7634,
+              "followers_count": 7632,
               "friends_count": 120,
               "has_custom_timelines": false,
               "is_translator": false,
               "listed_count": 34,
               "media_count": 117,
               "needs_phone_verification": false,
-              "normal_followers_count": 7634,
+              "normal_followers_count": 7632,
               "notifications": false,
               "possibly_sensitive": false,
               "profile_banner_url": "https://pbs.twimg.com/profile_banners/1913918770026020864/1783497773",
@@ -3620,7 +4889,7 @@
             }
           ]
         },
-        "favorite_count": 10648,
+        "favorite_count": 10644,
         "favorited": true,
         "full_text": "\u2600\ufe0f\ud83c\udf0a https://t.co/QXAXCukid9",
         "id_str": "2083871949734940748",
@@ -3638,7 +4907,7 @@
       "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
       "unmention_data": {},
       "views": {
-        "count": "180570",
+        "count": "180643",
         "state": "EnabledWithCount"
       }
     }
@@ -3655,9 +4924,9 @@
     "collection": {
       "type": "like",
       "folder_id": null,
-      "sort_index": "2085910899733823476",
+      "sort_index": "2085955611115126770",
       "added_at": "2026-08-03T13:55:55.105057+00:00",
-      "synced_at": "2026-08-08T02:08:07.726447+00:00"
+      "synced_at": "2026-08-08T05:05:47.744390+00:00"
     },
     "media": [
       {
@@ -3779,14 +5048,14 @@
               "fast_followers_count": 0,
               "favourites_count": 171,
               "follow_request_sent": false,
-              "followers_count": 194558,
+              "followers_count": 194807,
               "friends_count": 912,
               "has_custom_timelines": false,
               "is_translator": false,
               "listed_count": 273,
-              "media_count": 1593,
+              "media_count": 1594,
               "needs_phone_verification": false,
-              "normal_followers_count": 194558,
+              "normal_followers_count": 194807,
               "notifications": false,
               "pinned_tweet_ids_str": [
                 "2085850366772379944"
@@ -3794,7 +5063,7 @@
               "possibly_sensitive": true,
               "profile_banner_url": "https://pbs.twimg.com/profile_banners/1795911612718870529/1759875089",
               "profile_interstitial_type": "sensitive_media",
-              "statuses_count": 109095,
+              "statuses_count": 109133,
               "time_zone": "",
               "translator_type": "none",
               "url": "https://t.co/u83UbYJE0h",
@@ -4043,7 +5312,7 @@
             }
           ]
         },
-        "favorite_count": 34726,
+        "favorite_count": 34745,
         "favorited": true,
         "full_text": "Chudai  \n\nhttps://t.co/5b8gwNWAMa https://t.co/HV2lxQTROE",
         "id_str": "2083632364584841326",
@@ -4053,7 +5322,7 @@
         "possibly_sensitive_editable": false,
         "quote_count": 10,
         "reply_count": 66,
-        "retweet_count": 2868,
+        "retweet_count": 2866,
         "retweeted": false,
         "user_id_str": "1795911612718870529"
       },
@@ -4061,7 +5330,7 @@
       "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
       "unmention_data": {},
       "views": {
-        "count": "507769",
+        "count": "508969",
         "state": "EnabledWithCount"
       }
     }
@@ -4078,9 +5347,9 @@
     "collection": {
       "type": "like",
       "folder_id": null,
-      "sort_index": "2085910899733823477",
+      "sort_index": "2085955611115126771",
       "added_at": "2026-08-03T13:55:55.101612+00:00",
-      "synced_at": "2026-08-08T02:08:07.721037+00:00"
+      "synced_at": "2026-08-08T05:05:47.739027+00:00"
     },
     "media": [
       {
@@ -4301,14 +5570,14 @@
               "fast_followers_count": 0,
               "favourites_count": 78810,
               "follow_request_sent": false,
-              "followers_count": 25809,
+              "followers_count": 25811,
               "friends_count": 519,
               "has_custom_timelines": true,
               "is_translator": false,
               "listed_count": 339,
               "media_count": 4028,
               "needs_phone_verification": false,
-              "normal_followers_count": 25809,
+              "normal_followers_count": 25811,
               "notifications": false,
               "pinned_tweet_ids_str": [
                 "2039269234253934811"
@@ -5185,7 +6454,7 @@
           "url": "https://t.co/NympFV2Tzu"
         },
         "reply_count": 15,
-        "retweet_count": 18,
+        "retweet_count": 19,
         "retweeted": false,
         "user_id_str": "1168877404598808577"
       },
@@ -5316,14 +6585,14 @@
                   "fast_followers_count": 0,
                   "favourites_count": 78810,
                   "follow_request_sent": false,
-                  "followers_count": 25809,
+                  "followers_count": 25811,
                   "friends_count": 519,
                   "has_custom_timelines": true,
                   "is_translator": false,
                   "listed_count": 339,
                   "media_count": 4028,
                   "needs_phone_verification": false,
-                  "normal_followers_count": 25809,
+                  "normal_followers_count": 25811,
                   "notifications": false,
                   "pinned_tweet_ids_str": [
                     "2039269234253934811"
@@ -5650,7 +6919,7 @@
           "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
           "unmention_data": {},
           "views": {
-            "count": "56412",
+            "count": "56475",
             "state": "EnabledWithCount"
           }
         }
@@ -5659,7 +6928,7 @@
       "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
       "unmention_data": {},
       "views": {
-        "count": "20393",
+        "count": "20446",
         "state": "EnabledWithCount"
       }
     }
@@ -5676,9 +6945,9 @@
     "collection": {
       "type": "like",
       "folder_id": null,
-      "sort_index": "2085910899733823480",
-      "added_at": "2026-08-08T02:08:07.706736+00:00",
-      "synced_at": "2026-08-08T02:08:07.706736+00:00"
+      "sort_index": "2085955611115126774",
+      "added_at": "2026-08-08T05:05:47.724441+00:00",
+      "synced_at": "2026-08-08T05:05:47.724441+00:00"
     },
     "media": [
       {
@@ -5870,7 +7139,7 @@
       },
       "is_translatable": false,
       "legacy": {
-        "bookmark_count": 349,
+        "bookmark_count": 350,
         "bookmarked": false,
         "conversation_id_str": "2083608200461345063",
         "created_at": "Sat Aug 01 17:38:01 +0000 2026",
@@ -6055,7 +7324,7 @@
             }
           ]
         },
-        "favorite_count": 993,
+        "favorite_count": 994,
         "favorited": true,
         "full_text": "Wataa\n\nhttps://t.co/ZgY2AprA7w https://t.co/VfNLR093zM",
         "id_str": "2083608200461345063",
@@ -6073,7 +7342,7 @@
       "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
       "unmention_data": {},
       "views": {
-        "count": "32212",
+        "count": "32260",
         "state": "EnabledWithCount"
       }
     }
@@ -7123,9 +8392,9 @@
     "collection": {
       "type": "like",
       "folder_id": null,
-      "sort_index": "2085910899733823486",
-      "added_at": "2026-08-08T02:08:07.686637+00:00",
-      "synced_at": "2026-08-08T02:08:07.686637+00:00"
+      "sort_index": "2085955611115126780",
+      "added_at": "2026-08-08T05:05:47.704324+00:00",
+      "synced_at": "2026-08-08T05:05:47.704324+00:00"
     },
     "media": [],
     "urls": [],
@@ -7209,24 +8478,24 @@
                 }
               },
               "fast_followers_count": 0,
-              "favourites_count": 6148,
+              "favourites_count": 6152,
               "follow_request_sent": false,
-              "followers_count": 61906,
+              "followers_count": 62465,
               "friends_count": 229,
               "has_custom_timelines": false,
               "is_translator": false,
-              "listed_count": 70,
+              "listed_count": 69,
               "media_count": 1,
               "needs_phone_verification": false,
-              "normal_followers_count": 61906,
+              "normal_followers_count": 62465,
               "notifications": false,
               "pinned_tweet_ids_str": [
-                "2085882431715049633"
+                "2085942829843370073"
               ],
               "possibly_sensitive": true,
               "profile_banner_url": "https://pbs.twimg.com/profile_banners/1855582736/1378950228",
               "profile_interstitial_type": "sensitive_media",
-              "statuses_count": 6013,
+              "statuses_count": 6015,
               "time_zone": "",
               "translator_type": "none",
               "url": "https://t.co/5aJeXDaOh5",
@@ -7281,7 +8550,7 @@
       },
       "is_translatable": false,
       "legacy": {
-        "bookmark_count": 5105,
+        "bookmark_count": 5115,
         "bookmarked": false,
         "conversation_id_str": "2082894493452529987",
         "created_at": "Thu Jul 30 18:22:00 +0000 2026",
@@ -7290,7 +8559,7 @@
           7
         ],
         "entities": {},
-        "favorite_count": 5448,
+        "favorite_count": 5462,
         "favorited": true,
         "full_text": "Wataa \ud83d\udc45",
         "id_str": "2082894493452529987",
@@ -7298,7 +8567,7 @@
         "lang": "hi",
         "quote_count": 0,
         "reply_count": 42,
-        "retweet_count": 799,
+        "retweet_count": 800,
         "retweeted": false,
         "user_id_str": "1855582736"
       },
@@ -7306,7 +8575,7 @@
       "source": "<a href=\"https://twitter.com\" rel=\"nofollow\">Twitter for Advertisers</a>",
       "unmention_data": {},
       "views": {
-        "count": "342310",
+        "count": "343493",
         "state": "EnabledWithCount"
       }
     }
@@ -7708,9 +8977,9 @@
     "collection": {
       "type": "like",
       "folder_id": null,
-      "sort_index": "2085910899733823482",
-      "added_at": "2026-08-08T02:08:07.700113+00:00",
-      "synced_at": "2026-08-08T02:08:07.700113+00:00"
+      "sort_index": "2085955611115126776",
+      "added_at": "2026-08-08T05:05:47.717819+00:00",
+      "synced_at": "2026-08-08T05:05:47.717819+00:00"
     },
     "media": [
       {
@@ -7832,14 +9101,14 @@
               "fast_followers_count": 0,
               "favourites_count": 97,
               "follow_request_sent": false,
-              "followers_count": 27615,
+              "followers_count": 27624,
               "friends_count": 5,
               "has_custom_timelines": false,
               "is_translator": false,
-              "listed_count": 45,
+              "listed_count": 46,
               "media_count": 301,
               "needs_phone_verification": false,
-              "normal_followers_count": 27615,
+              "normal_followers_count": 27624,
               "notifications": false,
               "pinned_tweet_ids_str": [
                 "2085352725995233422"
@@ -7902,7 +9171,7 @@
       },
       "is_translatable": false,
       "legacy": {
-        "bookmark_count": 1349,
+        "bookmark_count": 1348,
         "bookmarked": false,
         "conversation_id_str": "2082116626174865429",
         "created_at": "Tue Jul 28 14:51:02 +0000 2026",
@@ -8097,7 +9366,7 @@
         "possibly_sensitive_editable": false,
         "quote_count": 0,
         "reply_count": 21,
-        "retweet_count": 269,
+        "retweet_count": 268,
         "retweeted": false,
         "user_id_str": "3322236794"
       },
@@ -8105,7 +9374,7 @@
       "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
       "unmention_data": {},
       "views": {
-        "count": "73216",
+        "count": "73325",
         "state": "EnabledWithCount"
       }
     }
@@ -8122,9 +9391,9 @@
     "collection": {
       "type": "like",
       "folder_id": null,
-      "sort_index": "2085910899733823473",
+      "sort_index": "2085955611115126767",
       "added_at": "2026-08-03T13:55:55.127859+00:00",
-      "synced_at": "2026-08-08T02:08:07.742688+00:00"
+      "synced_at": "2026-08-08T05:05:47.759803+00:00"
     },
     "media": [
       {
@@ -8726,9 +9995,9 @@
     "collection": {
       "type": "like",
       "folder_id": null,
-      "sort_index": "2085910899733823474",
+      "sort_index": "2085955611115126768",
       "added_at": "2026-08-03T13:55:55.124570+00:00",
-      "synced_at": "2026-08-08T02:08:07.737378+00:00"
+      "synced_at": "2026-08-08T05:05:47.754722+00:00"
     },
     "media": [
       {
@@ -8813,14 +10082,14 @@
               "fast_followers_count": 0,
               "favourites_count": 34,
               "follow_request_sent": false,
-              "followers_count": 10458,
+              "followers_count": 10460,
               "friends_count": 149,
               "has_custom_timelines": false,
               "is_translator": false,
               "listed_count": 5,
               "media_count": 5,
               "needs_phone_verification": false,
-              "normal_followers_count": 10458,
+              "normal_followers_count": 10460,
               "notifications": false,
               "pinned_tweet_ids_str": [
                 "2083347243273486687"
@@ -8881,7 +10150,7 @@
       "grok_annotations": {},
       "is_translatable": false,
       "legacy": {
-        "bookmark_count": 294,
+        "bookmark_count": 295,
         "bookmarked": false,
         "conversation_id_str": "2079263449339855131",
         "created_at": "Mon Jul 20 17:53:31 +0000 2026",
@@ -9055,7 +10324,7 @@
             }
           ]
         },
-        "favorite_count": 607,
+        "favorite_count": 609,
         "favorited": true,
         "full_text": "Wataa.... https://t.co/zC2QgcGOjO",
         "id_str": "2079263449339855131",
@@ -9073,7 +10342,7 @@
       "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
       "unmention_data": {},
       "views": {
-        "count": "16925",
+        "count": "16927",
         "state": "EnabledWithCount"
       }
     }
@@ -9090,9 +10359,9 @@
     "collection": {
       "type": "like",
       "folder_id": null,
-      "sort_index": "2085910899733823470",
+      "sort_index": "2084277079972511730",
       "added_at": "2026-08-03T13:55:55.138105+00:00",
-      "synced_at": "2026-08-08T02:08:07.758262+00:00"
+      "synced_at": "2026-08-03T13:55:55.138105+00:00"
     },
     "media": [
       {
@@ -9170,24 +10439,24 @@
                 "description": {}
               },
               "fast_followers_count": 0,
-              "favourites_count": 1,
+              "favourites_count": 0,
               "follow_request_sent": false,
-              "followers_count": 93172,
+              "followers_count": 75911,
               "friends_count": 1,
               "has_custom_timelines": false,
               "is_translator": false,
-              "listed_count": 82,
-              "media_count": 46,
+              "listed_count": 65,
+              "media_count": 35,
               "needs_phone_verification": false,
-              "normal_followers_count": 93172,
+              "normal_followers_count": 75911,
               "notifications": false,
               "pinned_tweet_ids_str": [
-                "2085857887478583508"
+                "2084046282050707495"
               ],
               "possibly_sensitive": true,
               "profile_banner_url": "https://pbs.twimg.com/profile_banners/2073647740010266624/1785105500",
               "profile_interstitial_type": "sensitive_media",
-              "statuses_count": 48,
+              "statuses_count": 35,
               "time_zone": "",
               "translator_type": "none",
               "url": "",
@@ -9242,7 +10511,7 @@
       },
       "is_translatable": false,
       "legacy": {
-        "bookmark_count": 2005,
+        "bookmark_count": 1855,
         "bookmarked": false,
         "conversation_id_str": "2078617204044829172",
         "created_at": "Sat Jul 18 23:05:34 +0000 2026",
@@ -9406,7 +10675,7 @@
             }
           ]
         },
-        "favorite_count": 3920,
+        "favorite_count": 3587,
         "favorited": true,
         "full_text": "Wow \ud83d\udc8c\ud83d\udc8c https://t.co/ZhQxRCAqHc",
         "id_str": "2078617204044829172",
@@ -9416,7 +10685,7 @@
         "possibly_sensitive_editable": true,
         "quote_count": 2,
         "reply_count": 22,
-        "retweet_count": 415,
+        "retweet_count": 364,
         "retweeted": false,
         "user_id_str": "2073647740010266624"
       },
@@ -9424,7 +10693,7 @@
       "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
       "unmention_data": {},
       "views": {
-        "count": "141937",
+        "count": "126389",
         "state": "EnabledWithCount"
       }
     }
@@ -9876,9 +11145,9 @@
     "collection": {
       "type": "like",
       "folder_id": null,
-      "sort_index": "2085910899733823471",
+      "sort_index": "2085955611115126765",
       "added_at": "2026-08-03T13:55:55.134848+00:00",
-      "synced_at": "2026-08-08T02:08:07.753001+00:00"
+      "synced_at": "2026-08-08T05:05:47.769874+00:00"
     },
     "media": [
       {
@@ -10005,14 +11274,14 @@
               "fast_followers_count": 0,
               "favourites_count": 4533,
               "follow_request_sent": false,
-              "followers_count": 146789,
+              "followers_count": 146802,
               "friends_count": 62,
               "has_custom_timelines": false,
               "is_translator": false,
               "listed_count": 152,
               "media_count": 46705,
               "needs_phone_verification": false,
-              "normal_followers_count": 146789,
+              "normal_followers_count": 146802,
               "notifications": false,
               "pinned_tweet_ids_str": [
                 "2085347969453179037"
@@ -10020,7 +11289,7 @@
               "possibly_sensitive": true,
               "profile_banner_url": "https://pbs.twimg.com/profile_banners/2443364856/1781290437",
               "profile_interstitial_type": "sensitive_media",
-              "statuses_count": 56301,
+              "statuses_count": 56321,
               "time_zone": "",
               "translator_type": "none",
               "url": "https://t.co/kPN4SvHpJn",
@@ -10276,7 +11545,7 @@
             }
           ]
         },
-        "favorite_count": 17317,
+        "favorite_count": 17316,
         "favorited": true,
         "full_text": "Wataa\nhttps://t.co/jS1FKBmuji https://t.co/4qgp8jjFUh",
         "id_str": "2077001038029025457",
@@ -10286,7 +11555,7 @@
         "possibly_sensitive_editable": false,
         "quote_count": 3,
         "reply_count": 101,
-        "retweet_count": 3175,
+        "retweet_count": 3177,
         "retweeted": false,
         "user_id_str": "2443364856"
       },
@@ -10294,7 +11563,7 @@
       "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
       "unmention_data": {},
       "views": {
-        "count": "481094",
+        "count": "481207",
         "state": "EnabledWithCount"
       }
     }
@@ -11533,9 +12802,9 @@
     "collection": {
       "type": "like",
       "folder_id": null,
-      "sort_index": "2085910899733823469",
+      "sort_index": "2084277079972511729",
       "added_at": "2026-08-03T13:55:55.141315+00:00",
-      "synced_at": "2026-08-08T02:08:07.763418+00:00"
+      "synced_at": "2026-08-03T13:55:55.141315+00:00"
     },
     "media": [
       {
@@ -11657,22 +12926,22 @@
               "fast_followers_count": 0,
               "favourites_count": 99,
               "follow_request_sent": false,
-              "followers_count": 26994,
+              "followers_count": 26890,
               "friends_count": 31,
               "has_custom_timelines": false,
               "is_translator": false,
-              "listed_count": 43,
-              "media_count": 289,
+              "listed_count": 42,
+              "media_count": 288,
               "needs_phone_verification": false,
-              "normal_followers_count": 26994,
+              "normal_followers_count": 26890,
               "notifications": false,
               "pinned_tweet_ids_str": [
-                "2085354360460964285"
+                "2083627739974660359"
               ],
               "possibly_sensitive": true,
               "profile_banner_url": "https://pbs.twimg.com/profile_banners/602229352/1768975537",
               "profile_interstitial_type": "sensitive_media",
-              "statuses_count": 298,
+              "statuses_count": 297,
               "time_zone": "",
               "translator_type": "none",
               "url": "https://t.co/e1Gt7tMRXi",
@@ -11727,7 +12996,7 @@
       },
       "is_translatable": false,
       "legacy": {
-        "bookmark_count": 979,
+        "bookmark_count": 981,
         "bookmarked": false,
         "conversation_id_str": "2075223351514034216",
         "created_at": "Thu Jul 09 14:19:37 +0000 2026",
@@ -11912,7 +13181,7 @@
             }
           ]
         },
-        "favorite_count": 2722,
+        "favorite_count": 2718,
         "favorited": true,
         "full_text": "Wataa\n\nhttps://t.co/nfuNDTiG6C https://t.co/XTiwFeLPLm",
         "id_str": "2075223351514034216",
@@ -11922,7 +13191,7 @@
         "possibly_sensitive_editable": false,
         "quote_count": 0,
         "reply_count": 33,
-        "retweet_count": 330,
+        "retweet_count": 332,
         "retweeted": false,
         "user_id_str": "602229352"
       },
@@ -11930,7 +13199,7 @@
       "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
       "unmention_data": {},
       "views": {
-        "count": "87118",
+        "count": "86615",
         "state": "EnabledWithCount"
       }
     }
@@ -14526,9 +15795,9 @@
     "collection": {
       "type": "like",
       "folder_id": null,
-      "sort_index": "2085910899733823472",
+      "sort_index": "2085955611115126766",
       "added_at": "2026-08-03T13:55:55.131162+00:00",
-      "synced_at": "2026-08-08T02:08:07.747820+00:00"
+      "synced_at": "2026-08-08T05:05:47.764876+00:00"
     },
     "media": [
       {
@@ -14626,14 +15895,14 @@
               "fast_followers_count": 0,
               "favourites_count": 35,
               "follow_request_sent": false,
-              "followers_count": 249591,
+              "followers_count": 249569,
               "friends_count": 70,
               "has_custom_timelines": false,
               "is_translator": false,
               "listed_count": 493,
               "media_count": 398,
               "needs_phone_verification": false,
-              "normal_followers_count": 249591,
+              "normal_followers_count": 249569,
               "notifications": false,
               "pinned_tweet_ids_str": [
                 "2070408242606346402"
@@ -14641,7 +15910,7 @@
               "possibly_sensitive": true,
               "profile_banner_url": "https://pbs.twimg.com/profile_banners/1797414887309860864/1741858053",
               "profile_interstitial_type": "sensitive_media",
-              "statuses_count": 359754,
+              "statuses_count": 359731,
               "time_zone": "",
               "translator_type": "none",
               "url": "https://t.co/XydgdMGIRA",
@@ -14696,7 +15965,7 @@
       },
       "is_translatable": false,
       "legacy": {
-        "bookmark_count": 4102,
+        "bookmark_count": 4115,
         "bookmarked": false,
         "conversation_id_str": "2070408242606346402",
         "created_at": "Fri Jun 26 07:26:06 +0000 2026",
@@ -14876,7 +16145,7 @@
             }
           ]
         },
-        "favorite_count": 16867,
+        "favorite_count": 16910,
         "favorited": true,
         "full_text": "Comment MUSEUM if this busty body should be in one https://t.co/GwD30bcJcy",
         "id_str": "2070408242606346402",
@@ -14886,7 +16155,7 @@
         "possibly_sensitive_editable": false,
         "quote_count": 5,
         "reply_count": 160,
-        "retweet_count": 1839,
+        "retweet_count": 1844,
         "retweeted": false,
         "user_id_str": "1797414887309860864"
       },
@@ -14894,7 +16163,7 @@
       "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
       "unmention_data": {},
       "views": {
-        "count": "614893",
+        "count": "616790",
         "state": "EnabledWithCount"
       }
     }
@@ -35974,9 +37243,9 @@
     "collection": {
       "type": "like",
       "folder_id": null,
-      "sort_index": "2085910899733823475",
+      "sort_index": "2085955611115126769",
       "added_at": "2026-08-03T13:55:55.118092+00:00",
-      "synced_at": "2026-08-08T02:08:07.732205+00:00"
+      "synced_at": "2026-08-08T05:05:47.749420+00:00"
     },
     "media": [
       {
@@ -36064,16 +37333,16 @@
                 "description": {}
               },
               "fast_followers_count": 0,
-              "favourites_count": 106889,
+              "favourites_count": 106895,
               "follow_request_sent": false,
-              "followers_count": 52489,
-              "friends_count": 1915,
+              "followers_count": 52479,
+              "friends_count": 1916,
               "has_custom_timelines": true,
               "is_translator": false,
               "listed_count": 159,
-              "media_count": 25000,
+              "media_count": 25009,
               "needs_phone_verification": false,
-              "normal_followers_count": 52489,
+              "normal_followers_count": 52479,
               "notifications": false,
               "pinned_tweet_ids_str": [
                 "2082276674490835070"
@@ -36081,7 +37350,7 @@
               "possibly_sensitive": false,
               "profile_banner_url": "https://pbs.twimg.com/profile_banners/1271534910746931200/1615855797",
               "profile_interstitial_type": "",
-              "statuses_count": 70379,
+              "statuses_count": 70390,
               "time_zone": "",
               "translator_type": "none",
               "url": "",
@@ -36328,7 +37597,7 @@
         "possibly_sensitive_editable": true,
         "quote_count": 53,
         "reply_count": 201,
-        "retweet_count": 1460,
+        "retweet_count": 1458,
         "retweeted": false,
         "user_id_str": "1271534910746931200"
       },
@@ -36336,7 +37605,7 @@
       "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
       "unmention_data": {},
       "views": {
-        "count": "3601061",
+        "count": "3601078",
         "state": "EnabledWithCount"
       }
     }
