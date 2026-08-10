@@ -66,19 +66,11 @@ jobs:
           python scripts/extract_links.py exports/full_archive.json > exports/likes_links.txt
 
       - name: Publish likes_mini.json to boomurl
+        env:
+          BOOMURL_KEY: ${{ secrets.BOOMURL_KEY }}
         run: |
           # 把 likes_mini.json 原样发布到 boomurl xlikes 站点 (https://xlikes.boomurl.me/index.json)
-          PAYLOAD=$(python3 -c '
-import json, base64, sys
-raw = open("exports/likes_mini.json", "rb").read()
-print(json.dumps({"base64": True, "files": {"index.json": base64.b64encode(raw).decode()}}))
-')
-          RESP=$(curl -sS -X PUT https://boomurl.com/api/v1/sites/xlikes \
-            -H "Authorization: Bearer ${{ secrets.BOOMURL_KEY }}" \
-            -H "Content-Type: application/json" \
-            -d "$PAYLOAD")
-          echo "boomurl response: $RESP"
-          echo "$RESP" | grep -q '"ok": *true' || { echo "boomurl publish failed"; exit 1; }
+          python3 scripts/publish_boomurl.py
 
       - name: Commit and push
         run: |
