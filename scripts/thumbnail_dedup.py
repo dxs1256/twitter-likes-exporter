@@ -267,31 +267,17 @@ def generate_report(
         for gi, group in enumerate(groups, 1):
             lines.append(f"### 第 {gi} 组（{len(group)} 条）")
             lines.append("")
-            lines.append("| 序号 | 用户名 | 推文链接 | 缩略图 | 指纹 |")
-            lines.append("|------|--------|----------|--------|------|")
+            lines.append("| 序号 | 用户名 | 推文链接 | 指纹 |")
+            lines.append("|------|--------|----------|------|")
             for i, entry in enumerate(group):
                 uname = entry.get("username", "?")
                 url = entry.get("url", "?")
-                thumb = entry.get("media_thumbnail", "?")
-                if len(thumb) > 60:
-                    thumb_short = thumb[:57] + "..."
-                else:
-                    thumb_short = thumb
                 dh = entry.get("_dhash", "?")
                 ph = entry.get("_phash", "?")
                 hash_str = f"d={dh[:8]}… p={ph[:8]}…" if dh and ph else "?"
                 lines.append(
-                    f"| {i+1} | @{uname} | {url} | {thumb_short} | {hash_str} |"
+                    f"| {i+1} | @{uname} | {url} | {hash_str} |"
                 )
-            lines.append("")
-            lines.append("**两两汉明距离：**")
-            lines.append("")
-            for i in range(len(group)):
-                for j in range(i + 1, len(group)):
-                    dist = hamming_pair(group[i], group[j])
-                    lines.append(
-                        f"- {group[i]['url']} ↔ {group[j]['url']}  → {dist}"
-                    )
             lines.append("")
 
     # --- No-thumbnail entries ---
@@ -309,37 +295,6 @@ def generate_report(
                 f"| {i} | @{entry.get('username', '?')} | {entry.get('url', '?')} |"
             )
         lines.append("")
-
-    # --- Kept pairs ---
-    lines.append("## 去重后保留列表")
-    lines.append("")
-    lines.append(
-        "每个重复组保留一个代表 + 所有独立条目。  "
-        "格式 `缩略图URL|视频URL`，可直接用于 `video-dedup --deep --thumbs`。"
-    )
-    lines.append("")
-
-    seen_in_group: set[int] = set()
-    for group in groups:
-        for entry in group:
-            seen_in_group.add(id(entry))
-
-    kept_pairs: list[str] = []
-
-    for group in groups:
-        rep = group[0]
-        thumb = rep.get("media_thumbnail", "")
-        media = rep.get("media_url") or rep.get("url", "")
-        kept_pairs.append(f"{thumb}|{media}  <!-- {len(group)}条重复 -->")
-
-    for entry in with_thumb:
-        if id(entry) not in seen_in_group:
-            thumb = entry.get("media_thumbnail", "")
-            media = entry.get("media_url") or entry.get("url", "")
-            kept_pairs.append(f"{thumb}|{media}")
-
-    for pair in kept_pairs:
-        lines.append(f"- `{pair[:120]}{'...' if len(pair) > 120 else ''}`")
 
     lines.append("")
     lines.append(
