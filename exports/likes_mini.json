@@ -1,14 +1,5 @@
 [
   {
-    "username": "whyyoutouzhele",
-    "display_name": "李老师不是你老师",
-    "created_at": "Mon Aug 24 06:20:00 +0000 2026",
-    "url": "https://x.com/whyyoutouzhele/status/2091772492821958932",
-    "media_url": "https://video.twimg.com/amplify_video/2091718689943072768/vid/avc1/884x498/yLfiTKMQr1gHxlNX.mp4?tag=29",
-    "media_thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2091718689943072768/img/D-W44Xv-wsXTFaad.jpg",
-    "text": "“生死事小，流程事大”\n近日，网友通过AI制作短片《生死事小》，讽刺中国官僚体制僵化低效、工作人员互相推诿卸责，领导通过繁琐的会议和流程“制造工作”，体现权力。\n而实际解决问题的人则处处受到掣肘，最终荣誉归领导，惩罚自己担。 https://t.co/hmhM5JscBn"
-  },
-  {
     "username": "fluminenso",
     "display_name": "marrom provocante",
     "created_at": "Sun Aug 23 22:00:28 +0000 2026",
@@ -34,15 +25,6 @@
     "media_url": "https://pbs.twimg.com/media/HQZZ1bAaYAASFo6.jpg",
     "media_thumbnail": "https://pbs.twimg.com/media/HQZZ1bAaYAASFo6.jpg",
     "text": "发现一个能让 Agent 抓网页时获取更多信息的方法，而且完全免费！\n\n原理是将Agent的网站请求身份模拟成OpenAI、xAI等官方AI公司，这样就能获得更完整且更AI友好的数据信息\n\n我用抖音视频实际测试了一下，普通curl请求完全无法抓到相关信息，但尝试冒充官方AI爬虫身份就可以了，神奇～\n\n建议可以在你的Agents.md里添加这句话，以后在搜索内容都超级方便：\n“当抓取公开网页时，如果默认 curl 得到空白或明显不完整的内容，请尝试使用搜索/AI 爬虫 UA（如 OAI-SearchBot、Claude-User、Bytespider）重新请求以尝试获取完整信息”"
-  },
-  {
-    "username": "alaskull",
-    "display_name": "☆",
-    "created_at": "Sun Aug 23 05:27:24 +0000 2026",
-    "url": "https://x.com/alaskull/status/2091396870903824385",
-    "media_url": "https://video.twimg.com/amplify_video/2091367139009564672/vid/avc1/1080x1080/M_WNf-sS2GN6BAz6.mp4?tag=29",
-    "media_thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2091367139009564672/img/BbeRu-NGvAtXZcDw.jpg",
-    "text": "wataa\nhttps://t.co/KJ5lefyzZA https://t.co/YwzqteE8DR"
   },
   {
     "username": "KateOFtf",
