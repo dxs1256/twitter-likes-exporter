@@ -1,37 +1,37 @@
-# Thumbnail Dedup Report
+# 缩略图去重报告
 
-**Input**: `exports/likes_mini.json`  
-**Total entries**: 147  
-**With thumbnail**: 146  
-**Without thumbnail**: 1  
-**Threshold**: dHash ≤ 10, pHash ≤ 20  
-**Duplicate groups found**: 1  
-**Entries in duplicate groups**: 2  
+**输入文件**: `exports/likes_mini.json`  
+**总条目数**: 147  
+**有缩略图**: 146  
+**无缩略图**: 1  
+**判定阈值**: dHash ≤ 10, pHash ≤ 20  
+**发现重复组**: 1  
+**重复组内条目数**: 2  
 
-## Duplicate Groups
+## 重复组详情
 
-### Group 1 (2 entries)
+### 第 1 组（2 条）
 
-| # | Username | Tweet URL | Thumbnail | dHash/pHash |
-|---|----------|-----------|-----------|-------------|
+| 序号 | 用户名 | 推文链接 | 缩略图 | 指纹 |
+|------|--------|----------|--------|------|
 | 1 | @KateOFtf | https://x.com/KateOFtf/status/2091111890189730211 | https://pbs.twimg.com/amplify_video_thumb/201496714228707... | d=19993333… p=e819d257… |
 | 2 | @KateOFtf | https://x.com/KateOFtf/status/2087996361006280854 | https://pbs.twimg.com/amplify_video_thumb/201496714228707... | d=19993333… p=e819d257… |
 
-**Pairwise distances:**
+**两两汉明距离：**
 
 - https://x.com/KateOFtf/status/2091111890189730211 ↔ https://x.com/KateOFtf/status/2087996361006280854  → dHash=0, pHash=0
 
-## Entries Without Thumbnail
+## 无缩略图条目
 
-These entries have no `media_thumbnail` and were not included in thumbnail comparison. They are **not** filtered out.
+以下条目没有 `media_thumbnail` 字段，未参与缩略图比对，**不会被过滤掉**。
 
-| # | Username | Tweet URL |
-|---|----------|-----------|
+| 序号 | 用户名 | 推文链接 |
+|------|--------|----------|
 | 1 | @lance012210 | https://x.com/lance012210/status/2060276521156440191 |
 
-## Kept Pairs (unique thumbnails)
+## 去重后保留列表
 
-One representative per duplicate group + all singletons.  Format: `thumbnail_url|video_url` ready for `video-dedup --deep --thumbs`.
+每个重复组保留一个代表 + 所有独立条目。  格式 `缩略图URL|视频URL`，可直接用于 `video-dedup --deep --thumbs`。
 
 - `https://pbs.twimg.com/amplify_video_thumb/2014967142287073280/img/P2aHxsXtWvF11GNC.jpg|https://video.twimg.com/amplify_v...`
 - `https://pbs.twimg.com/amplify_video_thumb/2091718689943072768/img/D-W44Xv-wsXTFaad.jpg|https://video.twimg.com/amplify_v...`
@@ -179,4 +179,4 @@ One representative per duplicate group + all singletons.  Format: `thumbnail_url
 - `https://pbs.twimg.com/ext_tw_video_thumb/1274015506589196288/pu/img/13F_6DqZQiLp82_g.jpg|https://video.twimg.com/ext_tw_...`
 - `https://pbs.twimg.com/media/EZMJ_PUXYAA56BM.jpg|https://pbs.twimg.com/media/EZMJ_PUXYAA56BM.jpg`
 
-*Report generated at 2026-08-25 08:03:36 UTC*
+*报告生成时间：2026-08-25 08:09:54 UTC*
