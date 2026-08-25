@@ -245,34 +245,30 @@ def generate_report(
     without_thumb: list[dict[str, Any]],
     total: int,
 ) -> str:
-    """Generate a Markdown report."""
+    """Generate a Markdown report (Chinese)."""
     lines: list[str] = []
-    lines.append("# Thumbnail Dedup Report")
+    lines.append("# 缩略图去重报告")
     lines.append("")
-    lines.append(f"**Input**: `{INPUT_FILE}`  ")
-    lines.append(f"**Total entries**: {total}  ")
-    lines.append(
-        f"**With thumbnail**: {len(with_thumb)}  "
-    )
-    lines.append(
-        f"**Without thumbnail**: {len(without_thumb)}  "
-    )
-    lines.append(f"**Threshold**: dHash ≤ {THRESHOLD}, pHash ≤ {THRESHOLD * 2}  ")
-    lines.append(f"**Duplicate groups found**: {len(groups)}  ")
+    lines.append(f"**输入文件**: `{INPUT_FILE}`  ")
+    lines.append(f"**总条目数**: {total}  ")
+    lines.append(f"**有缩略图**: {len(with_thumb)}  ")
+    lines.append(f"**无缩略图**: {len(without_thumb)}  ")
+    lines.append(f"**判定阈值**: dHash ≤ {THRESHOLD}, pHash ≤ {THRESHOLD * 2}  ")
+    lines.append(f"**发现重复组**: {len(groups)}  ")
 
     dup_count = sum(len(g) for g in groups)
-    lines.append(f"**Entries in duplicate groups**: {dup_count}  ")
+    lines.append(f"**重复组内条目数**: {dup_count}  ")
     lines.append("")
 
     # --- Groups ---
     if groups:
-        lines.append("## Duplicate Groups")
+        lines.append("## 重复组详情")
         lines.append("")
         for gi, group in enumerate(groups, 1):
-            lines.append(f"### Group {gi} ({len(group)} entries)")
+            lines.append(f"### 第 {gi} 组（{len(group)} 条）")
             lines.append("")
-            lines.append("| # | Username | Tweet URL | Thumbnail | dHash/pHash |")
-            lines.append("|---|----------|-----------|-----------|-------------|")
+            lines.append("| 序号 | 用户名 | 推文链接 | 缩略图 | 指纹 |")
+            lines.append("|------|--------|----------|--------|------|")
             for i, entry in enumerate(group):
                 uname = entry.get("username", "?")
                 url = entry.get("url", "?")
@@ -288,7 +284,7 @@ def generate_report(
                     f"| {i+1} | @{uname} | {url} | {thumb_short} | {hash_str} |"
                 )
             lines.append("")
-            lines.append("**Pairwise distances:**")
+            lines.append("**两两汉明距离：**")
             lines.append("")
             for i in range(len(group)):
                 for j in range(i + 1, len(group)):
@@ -300,15 +296,14 @@ def generate_report(
 
     # --- No-thumbnail entries ---
     if without_thumb:
-        lines.append("## Entries Without Thumbnail")
+        lines.append("## 无缩略图条目")
         lines.append("")
         lines.append(
-            "These entries have no `media_thumbnail` and were not included "
-            "in thumbnail comparison. They are **not** filtered out."
+            "以下条目没有 `media_thumbnail` 字段，未参与缩略图比对，**不会被过滤掉**。"
         )
         lines.append("")
-        lines.append("| # | Username | Tweet URL |")
-        lines.append("|---|----------|-----------|")
+        lines.append("| 序号 | 用户名 | 推文链接 |")
+        lines.append("|------|--------|----------|")
         for i, entry in enumerate(without_thumb, 1):
             lines.append(
                 f"| {i} | @{entry.get('username', '?')} | {entry.get('url', '?')} |"
@@ -316,15 +311,14 @@ def generate_report(
         lines.append("")
 
     # --- Kept pairs ---
-    lines.append("## Kept Pairs (unique thumbnails)")
+    lines.append("## 去重后保留列表")
     lines.append("")
     lines.append(
-        "One representative per duplicate group + all singletons.  "
-        "Format: `thumbnail_url|video_url` ready for `video-dedup --deep --thumbs`."
+        "每个重复组保留一个代表 + 所有独立条目。  "
+        "格式 `缩略图URL|视频URL`，可直接用于 `video-dedup --deep --thumbs`。"
     )
     lines.append("")
 
-    # Collect representatives: one per group
     seen_in_group: set[int] = set()
     for group in groups:
         for entry in group:
@@ -332,14 +326,12 @@ def generate_report(
 
     kept_pairs: list[str] = []
 
-    # One rep per group
     for group in groups:
         rep = group[0]
         thumb = rep.get("media_thumbnail", "")
         media = rep.get("media_url") or rep.get("url", "")
-        kept_pairs.append(f"{thumb}|{media}  <!-- group of {len(group)} -->")
+        kept_pairs.append(f"{thumb}|{media}  <!-- {len(group)}条重复 -->")
 
-    # Singletons (not in any group)
     for entry in with_thumb:
         if id(entry) not in seen_in_group:
             thumb = entry.get("media_thumbnail", "")
@@ -351,7 +343,7 @@ def generate_report(
 
     lines.append("")
     lines.append(
-        f"*Report generated at {time.strftime('%Y-%m-%d %H:%M:%S UTC', time.gmtime())}*"
+        f"*报告生成时间：{time.strftime('%Y-%m-%d %H:%M:%S UTC', time.gmtime())}*"
     )
 
     return "\n".join(lines)
