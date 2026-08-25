@@ -1,5 +1,14 @@
 [
   {
+    "username": "jun_song",
+    "display_name": "Jun Song",
+    "created_at": "Mon Aug 24 15:02:25 +0000 2026",
+    "url": "https://x.com/jun_song/status/2091903964413657474",
+    "media_url": "https://pbs.twimg.com/media/HQfvkVvaEAAH3S9.jpg",
+    "media_thumbnail": "https://pbs.twimg.com/media/HQfvkVvaEAAH3S9.jpg",
+    "text": "SuperQwen3.8-27b-abliterated is now live and open for everyone 🚀\n\n- Uncensored for freedom\n- Broken weight from abliteration fixed with agents swarm\n- fixed overthinking problem\n- 1M context, Multimodal\n\nSorry about the late release.\n\nSuper-tune takes much more time than normal abliterated models, because fixing weights and eval takes about a week.\n\nBF16/MLX/NVFP4 ⬇️"
+  },
+  {
     "username": "fluminenso",
     "display_name": "marrom provocante",
     "created_at": "Sun Aug 23 22:00:28 +0000 2026",
