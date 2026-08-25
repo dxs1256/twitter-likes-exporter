@@ -222,6 +222,24 @@ def e_i_phash(entries: list[dict[str, Any]], i: int) -> imagehash.ImageHash | No
 # ---------------------------------------------------------------------------
 
 
+def normalize_thumb_url(url: str) -> str:
+    """Convert a raw pbs.twimg.com thumbnail URL to one that opens in a browser.
+
+    Twitter CDN requires format/name parameters; without them the URL may
+    return a redirect page or a WebP that some browsers won't display.
+    
+    Examples:
+      https://pbs.twimg.com/amplify_video_thumb/123/img/abc.jpg
+        → https://pbs.twimg.com/amplify_video_thumb/123/img/abc.jpg?format=jpg&name=medium
+      https://pbs.twimg.com/ext_tw_video_thumb/456/pu/img/xyz.jpg?tag=12
+        → https://pbs.twimg.com/ext_tw_video_thumb/456/pu/img/xyz.jpg?format=jpg&name=medium
+    """
+    if "pbs.twimg.com" not in url or "format=" in url:
+        return url
+    sep = "&" if "?" in url else "?"
+    return f"{url}{sep}format=jpg&name=medium"
+
+
 def hamming_pair(e1: dict[str, Any], e2: dict[str, Any]) -> str:
     """Human-readable distance between two entries."""
     dh1 = e1.get("_dhash")
@@ -267,16 +285,23 @@ def generate_report(
         for gi, group in enumerate(groups, 1):
             lines.append(f"### 第 {gi} 组（{len(group)} 条）")
             lines.append("")
-            lines.append("| 序号 | 用户名 | 推文链接 | 指纹 |")
-            lines.append("|------|--------|----------|------|")
+            lines.append("| 序号 | 用户名 | 推文链接 | 缩略图 | 指纹 |")
+            lines.append("|------|--------|----------|--------|------|")
             for i, entry in enumerate(group):
                 uname = entry.get("username", "?")
                 url = entry.get("url", "?")
+                raw_thumb = entry.get("media_thumbnail", "?")
+                thumb_link = normalize_thumb_url(raw_thumb)
+                if len(raw_thumb) > 60:
+                    thumb_short = raw_thumb[:57] + "..."
+                else:
+                    thumb_short = raw_thumb
+                thumb_display = f"[图片]({thumb_link})"
                 dh = entry.get("_dhash", "?")
                 ph = entry.get("_phash", "?")
                 hash_str = f"d={dh[:8]}… p={ph[:8]}…" if dh and ph else "?"
                 lines.append(
-                    f"| {i+1} | @{uname} | {url} | {hash_str} |"
+                    f"| {i+1} | @{uname} | {url} | {thumb_display} | {hash_str} |"
                 )
             lines.append("")
 
