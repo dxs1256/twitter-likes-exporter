@@ -1,0 +1,57 @@
+name: Thumbnail Dedup
+
+on:
+  workflow_dispatch:
+  # Optionally run after sync-likes completes
+  # workflow_run:
+  #   workflows: ["Sync Twitter Likes"]
+  #   types: [completed]
+
+permissions:
+  contents: write
+
+jobs:
+  dedup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          pip install imagehash pillow
+
+      - name: Cache thumbnails
+        uses: actions/cache@v4
+        with:
+          path: .thumb_cache
+          key: thumb-cache-${{ github.run_id }}
+          restore-keys: |
+            thumb-cache-
+
+      - name: Run thumbnail dedup
+        run: python scripts/thumbnail_dedup.py
+
+      - name: Upload report artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: thumb-dedup-report
+          path: |
+            report.md
+            exports/thumb_kept_pairs.txt
+            exports/thumb_duplicate_groups.json
+          retention-days: 30
+
+      - name: Commit and push results
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add report.md exports/thumb_kept_pairs.txt exports/thumb_duplicate_groups.json
+          git diff --staged --quiet || git commit -m "chore: update thumbnail dedup report"
+          git push

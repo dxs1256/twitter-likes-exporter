@@ -1,2 +1,4 @@
 tweetxvault>=0.2.5,<1
 lancedb==0.34.0
+imagehash>=4.3
+pillow>=10.0
