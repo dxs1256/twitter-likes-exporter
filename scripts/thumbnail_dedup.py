@@ -285,23 +285,16 @@ def generate_report(
         for gi, group in enumerate(groups, 1):
             lines.append(f"### 第 {gi} 组（{len(group)} 条）")
             lines.append("")
-            lines.append("| 序号 | 用户名 | 推文链接 | 缩略图 | 指纹 |")
-            lines.append("|------|--------|----------|--------|------|")
+            lines.append("| 序号 | 用户名 | 推文链接 | 缩略图 |")
+            lines.append("|------|--------|----------|--------|")
             for i, entry in enumerate(group):
                 uname = entry.get("username", "?")
                 url = entry.get("url", "?")
                 raw_thumb = entry.get("media_thumbnail", "?")
                 thumb_link = normalize_thumb_url(raw_thumb)
-                if len(raw_thumb) > 60:
-                    thumb_short = raw_thumb[:57] + "..."
-                else:
-                    thumb_short = raw_thumb
                 thumb_display = f"[图片]({thumb_link})"
-                dh = entry.get("_dhash", "?")
-                ph = entry.get("_phash", "?")
-                hash_str = f"d={dh[:8]}… p={ph[:8]}…" if dh and ph else "?"
                 lines.append(
-                    f"| {i+1} | @{uname} | {url} | {thumb_display} | {hash_str} |"
+                    f"| {i+1} | @{uname} | {url} | {thumb_display} |"
                 )
             lines.append("")
 
