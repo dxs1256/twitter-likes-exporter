@@ -1,5 +1,14 @@
 [
   {
+    "username": "hisevenih",
+    "display_name": "HiSeven｜🕊️",
+    "created_at": "Thu Sep 03 14:32:00 +0000 2026",
+    "url": "https://x.com/hisevenih/status/2095520188519039445",
+    "media_url": "https://pbs.twimg.com/media/HRR2rTlasAA6JE7.jpg",
+    "media_thumbnail": "https://pbs.twimg.com/media/HRR2rTlasAA6JE7.jpg",
+    "text": "免费模型别再一个个翻官网了，463 个入口已经有人整理好\n\nhttps://t.co/OTKXoyPY1k 现在收了：\n\n463 个免费模型\n25 家 Provider\n21 个免账号入口\n9 个本地运行方案\n\n不想绑卡，筛 `no card`。\n\n想继续用 OpenAI SDK，筛 `OpenAI-compatible`。\n\n想完全断网跑，直接看 local runtimes。\n\n每家还会标出：\n\n请求限额\nContext\nBase URL\n环境变量名\n最后核验时间\n\n比如 Google AI Studio 页面写的是每天 1500 次、1M Context；Groq 是每天 1000 次、131K Context。\n\n官网｜it's free*\nhttps://t.co/NxZk01Jxjt"
+  },
+  {
     "username": "heynavtoor",
     "display_name": "Nav Toor",
     "created_at": "Wed Sep 02 02:45:07 +0000 2026",
@@ -391,7 +400,7 @@
     "display_name": "Ameeelia 🌸 (FREE OF☘️)",
     "created_at": "Wed Aug 12 12:15:00 +0000 2026",
     "url": "https://x.com/KateOFtf/status/2087513177416253848",
-    "media_url": "https://video.twimg.com/amplify_video/2014970317559758848/vid/avc1/720x720/L7V-UbQh17lSBU9a.mp4?tag=21",
+    "media_url": "https://video.twimg.com/amplify_video/2014970317559758848/vid/avc1/720x720/L7V-UbQh17lSBU9a.mp4",
     "media_thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2014970317559758848/img/m-QfxjMiPzjQxuwc.jpg",
     "text": "Wataa 👅"
   },
